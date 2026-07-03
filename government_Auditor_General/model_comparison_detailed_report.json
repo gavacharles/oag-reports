@@ -1,0 +1,43 @@
+{
+  "title": "Model Comparison Report: SVM vs KNN vs CNN/MLP",
+  "timestamp": "2026-03-11T15:59:29.036586",
+  "data_info": {
+    "total_sentences": 341,
+    "training_samples": 255,
+    "test_samples": 86,
+    "feature_dimension": 500,
+    "unique_classes": 6
+  },
+  "models_compared": [
+    "Support Vector Machine (SVM)",
+    "K-Nearest Neighbors (KNN)",
+    "Convolutional Neural Network (CNN/MLP)"
+  ],
+  "summary_metrics": {
+    "SVM": {
+      "accuracy": 0.9186046511627907,
+      "precision": 0.922296050203027,
+      "recall": 0.9186046511627907,
+      "f1_score": 0.9145158215783454,
+      "macro_f1": 0.8705069823922282
+    },
+    "KNN": {
+      "accuracy": 0.7906976744186046,
+      "precision": 0.8048023681744612,
+      "recall": 0.7906976744186046,
+      "f1_score": 0.7808400963877333,
+      "macro_f1": 0.6085451287064191
+    },
+    "CNN/MLP": {
+      "accuracy": 0.9186046511627907,
+      "precision": 0.922296050203027,
+      "recall": 0.9186046511627907,
+      "f1_score": 0.9145158215783454,
+      "macro_f1": 0.8705069823922282
+    }
+  },
+  "winner": {
+    "best_accuracy": "SVM",
+    "best_f1": "SVM"
+  }
+}

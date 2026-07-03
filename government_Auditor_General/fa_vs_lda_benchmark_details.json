@@ -1,0 +1,206 @@
+{
+  "config": {
+    "n_components": 6,
+    "top_n_terms": 12,
+    "random_state": 42,
+    "label_column": "driver_label_expanded",
+    "rows": 1233
+  },
+  "fa": {
+    "topic_diversity": 0.4583333333333333,
+    "umass_coherence": -2.1890467379579124,
+    "label_alignment_nmi": 0.05125968109012102,
+    "latent_cls": {
+      "accuracy": 0.2459546925566343,
+      "macro_f1": 0.1231184082444726,
+      "n_train": 924,
+      "n_test": 309
+    },
+    "reconstruction_mse": 0.0018477836955597324,
+    "top_terms": [
+      [
+        "delayed",
+        "procurement",
+        "road",
+        "construction",
+        "contract",
+        "ugx",
+        "works",
+        "water",
+        "projects",
+        "noted",
+        "000",
+        "limited"
+      ],
+      [
+        "delayed",
+        "construction",
+        "projects",
+        "works",
+        "infrastructure",
+        "limited",
+        "000",
+        "water",
+        "noted",
+        "delay",
+        "equipment",
+        "attributed"
+      ],
+      [
+        "limited",
+        "nec",
+        "nec luwero",
+        "luwero industries",
+        "industries limited",
+        "luwero",
+        "industries",
+        "uganda",
+        "corporation",
+        "company",
+        "company limited",
+        "000"
+      ],
+      [
+        "procurement",
+        "delayed",
+        "contract",
+        "road",
+        "construction",
+        "infrastructure",
+        "works",
+        "government",
+        "water",
+        "accounting",
+        "funds",
+        "equipment"
+      ],
+      [
+        "delayed",
+        "contract",
+        "projects",
+        "road",
+        "construction",
+        "funds",
+        "uganda",
+        "company",
+        "works",
+        "limited",
+        "ugx",
+        "accounting"
+      ],
+      [
+        "delayed",
+        "procurement",
+        "road",
+        "contract",
+        "accounting",
+        "funds",
+        "infrastructure",
+        "accounting officers",
+        "officers",
+        "projects",
+        "implementation",
+        "delays"
+      ]
+    ]
+  },
+  "lda": {
+    "topic_diversity": 0.8333333333333334,
+    "umass_coherence": -1.8036620266918477,
+    "label_alignment_nmi": 0.12475051494271744,
+    "latent_cls": {
+      "accuracy": 0.27184466019417475,
+      "macro_f1": 0.17171255918206643,
+      "n_train": 924,
+      "n_test": 309
+    },
+    "perplexity": 269.4112691923251,
+    "log_likelihood": -131119.8819679182,
+    "top_terms": [
+      [
+        "procurement",
+        "25",
+        "2024",
+        "audit",
+        "100",
+        "management",
+        "2024 25",
+        "capacity",
+        "2021",
+        "reports",
+        "performance",
+        "compliance"
+      ],
+      [
+        "limited",
+        "uganda",
+        "company",
+        "electricity",
+        "corporation",
+        "nec",
+        "uganda electricity",
+        "company limited",
+        "national",
+        "construction",
+        "transmission",
+        "management"
+      ],
+      [
+        "development",
+        "infrastructure",
+        "ministry",
+        "audit",
+        "uganda",
+        "government",
+        "management",
+        "national",
+        "water",
+        "financial",
+        "services",
+        "year"
+      ],
+      [
+        "000",
+        "road",
+        "uganda",
+        "national",
+        "000 000",
+        "authority",
+        "land",
+        "roads",
+        "bridge",
+        "maintenance",
+        "ugx",
+        "fund"
+      ],
+      [
+        "accounting",
+        "officer",
+        "funds",
+        "procurement",
+        "accounting officer",
+        "act",
+        "officers",
+        "delayed",
+        "accounting officers",
+        "attributed",
+        "advised",
+        "plans"
+      ],
+      [
+        "ugx",
+        "delayed",
+        "contract",
+        "construction",
+        "works",
+        "noted",
+        "project",
+        "projects",
+        "equipment",
+        "table",
+        "total",
+        "funds"
+      ]
+    ]
+  }
+}

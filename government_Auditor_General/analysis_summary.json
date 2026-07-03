@@ -1,0 +1,62 @@
+{
+  "total_reports": 72,
+  "unique_actors": 9,
+  "network_nodes": 9,
+  "network_edges": 1,
+  "top_actors": [
+    {
+      "name": "Water And Environment",
+      "type": "ministry",
+      "count": 13
+    },
+    {
+      "name": "Uetcl",
+      "type": "utility",
+      "count": 5
+    },
+    {
+      "name": "Uganda National Roads Authority",
+      "type": "authority",
+      "count": 4
+    },
+    {
+      "name": "Danida",
+      "type": "development_partner",
+      "count": 2
+    },
+    {
+      "name": "Unra",
+      "type": "authority",
+      "count": 2
+    },
+    {
+      "name": "Energy And Mineral Development",
+      "type": "ministry",
+      "count": 1
+    },
+    {
+      "name": "Rea",
+      "type": "authority",
+      "count": 1
+    },
+    {
+      "name": "Nwsc",
+      "type": "utility",
+      "count": 1
+    },
+    {
+      "name": "Adb",
+      "type": "development_partner",
+      "count": 1
+    }
+  ],
+  "classification_summary": {
+    "Power Transmission": 13,
+    "Roads & Transport": 6,
+    "Rural Energy": 12,
+    "Unclassified": 13,
+    "Water & Environment": 25,
+    "Water & Utilities": 3
+  },
+  "mean_hit_rate": 0.4048611111111111
+}

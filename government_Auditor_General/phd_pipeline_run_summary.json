@@ -1,0 +1,28 @@
+{
+  "years_covered": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "total_infrastructure_sentences": 1233,
+  "total_target_mentions": 9,
+  "top_drivers": {
+    "other": 892,
+    "procurement_irregularities": 237,
+    "delayed_payments": 35,
+    "contract_management": 23,
+    "governance_and_controls": 23,
+    "land_and_right_of_way": 19,
+    "claims_and_liabilities": 4
+  },
+  "plot_files": [
+    "/Users/charlesgava/Downloads/Temporal Analysis Research /output/results/government_Auditor_General/plots_png/hierarchical_topic_evolution.png",
+    "/Users/charlesgava/Downloads/Temporal Analysis Research /output/results/government_Auditor_General/plots_png/dispute_driver_heatmap.png",
+    "/Users/charlesgava/Downloads/Temporal Analysis Research /output/results/government_Auditor_General/plots_png/dispute_driver_trends.png"
+  ]
+}
