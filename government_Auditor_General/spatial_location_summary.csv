@@ -1,0 +1,29 @@
+location,region,lon,lat,matched_sentences,dominant_driver,dominant_driver_label
+Kampala,Central,32.58,0.35,32,infrastructure_and_equipment,Infrastructure & Equipment
+Karuma,Northern,32.25,2.25,17,human_resources,Human Resources
+Hoima,Western,31.35,1.43,15,delays_and_time_overruns,Delays & Time Overruns
+Kalangala,Central,32.29,-0.32,15,infrastructure_and_equipment,Infrastructure & Equipment
+Soroti,Eastern,33.61,1.71,15,miscellaneous_administrative,Miscellaneous Administrative
+Mbarara,Western,30.65,-0.61,13,delays_and_time_overruns,Delays & Time Overruns
+Jinja,Eastern,33.2,0.44,13,general_project_issues,General Project Issues
+Isimba,Eastern,33.16,0.59,10,human_resources,Human Resources
+Moroto,Northern,34.67,2.53,9,human_resources,Human Resources
+Namanve,Central,32.7,0.35,8,infrastructure_and_equipment,Infrastructure & Equipment
+Entebbe,Central,32.46,0.06,8,procurement_irregularities,Procurement Irregularities
+Gulu,Northern,32.3,2.77,7,infrastructure_and_equipment,Infrastructure & Equipment
+Kotido,Northern,34.11,2.98,6,human_resources,Human Resources
+Lira,Northern,32.9,2.25,6,general_project_issues,General Project Issues
+Tororo,Eastern,34.18,0.69,6,infrastructure_and_equipment,Infrastructure & Equipment
+Masaka,Central,31.74,-0.34,6,miscellaneous_administrative,Miscellaneous Administrative
+Nkenda,Western,30.1,0.25,6,delays_and_time_overruns,Delays & Time Overruns
+Arua,Northern,30.91,3.02,5,procurement_irregularities,Procurement Irregularities
+Muzizi,Western,31.16,1.79,5,budget_and_funding_issues,Budget & Funding Issues
+Kabale,Western,29.99,-1.25,4,budget_and_funding_issues,Budget & Funding Issues
+Kasese,Western,30.1,0.18,4,infrastructure_and_equipment,Infrastructure & Equipment
+Mbale,Eastern,34.17,1.08,3,general_project_issues,General Project Issues
+Mukono,Central,32.75,0.35,3,budget_and_funding_issues,Budget & Funding Issues
+Fort Portal,Western,30.27,0.66,3,compliance_and_regulatory,Compliance & Regulatory
+Budaka,Eastern,33.93,1.01,1,procurement_irregularities,Procurement Irregularities
+Bukedea,Eastern,34.05,1.32,1,procurement_irregularities,Procurement Irregularities
+Ngenge,Northern,34.37,1.37,1,procurement_irregularities,Procurement Irregularities
+Namalu,Northern,34.43,2.26,1,procurement_irregularities,Procurement Irregularities

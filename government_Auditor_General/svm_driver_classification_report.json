@@ -1,0 +1,51 @@
+{
+  "claims_and_liabilities": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1.0
+  },
+  "contract_management": {
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1-score": 0.6666666666666666,
+    "support": 6.0
+  },
+  "delayed_payments": {
+    "precision": 0.8888888888888888,
+    "recall": 0.8888888888888888,
+    "f1-score": 0.8888888888888888,
+    "support": 9.0
+  },
+  "governance_and_controls": {
+    "precision": 1.0,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.9090909090909091,
+    "support": 6.0
+  },
+  "land_and_right_of_way": {
+    "precision": 0.6,
+    "recall": 0.6,
+    "f1-score": 0.6,
+    "support": 5.0
+  },
+  "procurement_irregularities": {
+    "precision": 0.9206349206349206,
+    "recall": 0.9830508474576272,
+    "f1-score": 0.9508196721311475,
+    "support": 59.0
+  },
+  "accuracy": 0.9069767441860465,
+  "macro avg": {
+    "precision": 0.9015873015873016,
+    "recall": 0.8008788449466415,
+    "f1-score": 0.8359110227962686,
+    "support": 86.0
+  },
+  "weighted avg": {
+    "precision": 0.9106681432262828,
+    "recall": 0.9069767441860465,
+    "f1-score": 0.9017779780265482,
+    "support": 86.0
+  }
+}

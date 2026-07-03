@@ -1,0 +1,28 @@
+{
+  "total_reports": 72,
+  "classification_by_theme": {
+    "Agricultural Infrastructure": 1,
+    "Communications": 2,
+    "Municipal Infrastructure": 5,
+    "Power Transmission": 13,
+    "Roads & Transport": 7,
+    "Rural Energy": 11,
+    "Unclassified (non-infrastructure)": 5,
+    "Water & Environment": 28
+  },
+  "mean_confidence": 0.3085142469470827,
+  "multi_theme_reports": 17,
+  "parliament_mentioned_actors": [
+    "rea",
+    "World Bank",
+    "UNRA",
+    "ida",
+    "Uganda National Roads Authority",
+    "China Road and Bridge Corporation",
+    "CRBC",
+    "International Development Association",
+    "IDA",
+    "Works and Transport"
+  ],
+  "parliament_validation_coverage": 10
+}

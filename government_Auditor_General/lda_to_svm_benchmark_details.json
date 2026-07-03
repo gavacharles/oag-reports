@@ -1,0 +1,306 @@
+{
+  "config": {
+    "n_topics": 6,
+    "random_state": 42,
+    "label_col": "driver_label_expanded",
+    "rows": 1233,
+    "n_train": 924,
+    "n_test": 309
+  },
+  "models": {
+    "SVM_TFIDF": {
+      "accuracy": 0.7540453074433657,
+      "macro_f1": 0.7361012830865701,
+      "weighted_f1": 0.7567685425325722,
+      "classification_report": {
+        "budget_and_funding_issues": {
+          "precision": 0.6,
+          "recall": 0.5625,
+          "f1-score": 0.5806451612903226,
+          "support": 32.0
+        },
+        "claims_and_liabilities": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 1.0
+        },
+        "compliance_and_regulatory": {
+          "precision": 0.5,
+          "recall": 0.5,
+          "f1-score": 0.5,
+          "support": 6.0
+        },
+        "contract_management": {
+          "precision": 0.7142857142857143,
+          "recall": 0.8333333333333334,
+          "f1-score": 0.7692307692307693,
+          "support": 6.0
+        },
+        "delayed_payments": {
+          "precision": 0.9,
+          "recall": 1.0,
+          "f1-score": 0.9473684210526315,
+          "support": 9.0
+        },
+        "delays_and_time_overruns": {
+          "precision": 0.8392857142857143,
+          "recall": 0.8545454545454545,
+          "f1-score": 0.8468468468468469,
+          "support": 55.0
+        },
+        "general_project_issues": {
+          "precision": 0.6111111111111112,
+          "recall": 0.7333333333333333,
+          "f1-score": 0.6666666666666666,
+          "support": 15.0
+        },
+        "governance_and_controls": {
+          "precision": 0.42857142857142855,
+          "recall": 0.5,
+          "f1-score": 0.46153846153846156,
+          "support": 6.0
+        },
+        "human_resources": {
+          "precision": 0.5,
+          "recall": 0.5833333333333334,
+          "f1-score": 0.5384615384615384,
+          "support": 12.0
+        },
+        "infrastructure_and_equipment": {
+          "precision": 0.696969696969697,
+          "recall": 0.7419354838709677,
+          "f1-score": 0.71875,
+          "support": 31.0
+        },
+        "land_and_right_of_way": {
+          "precision": 0.8333333333333334,
+          "recall": 1.0,
+          "f1-score": 0.9090909090909091,
+          "support": 5.0
+        },
+        "miscellaneous_administrative": {
+          "precision": 0.7183098591549296,
+          "recall": 0.7083333333333334,
+          "f1-score": 0.7132867132867133,
+          "support": 72.0
+        },
+        "procurement_irregularities": {
+          "precision": 1.0,
+          "recall": 0.847457627118644,
+          "f1-score": 0.9174311926605505,
+          "support": 59.0
+        },
+        "accuracy": 0.7540453074433657,
+        "macro avg": {
+          "precision": 0.7186051429009175,
+          "recall": 0.7588286076052615,
+          "f1-score": 0.7361012830865701,
+          "support": 309.0
+        },
+        "weighted avg": {
+          "precision": 0.7636749545029321,
+          "recall": 0.7540453074433657,
+          "f1-score": 0.7567685425325722,
+          "support": 309.0
+        }
+      }
+    },
+    "SVM_LDA_TOPICS": {
+      "accuracy": 0.27184466019417475,
+      "macro_f1": 0.17171255918206643,
+      "weighted_f1": 0.25892123092188774,
+      "classification_report": {
+        "budget_and_funding_issues": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 32.0
+        },
+        "claims_and_liabilities": {
+          "precision": 0.047619047619047616,
+          "recall": 1.0,
+          "f1-score": 0.09090909090909091,
+          "support": 1.0
+        },
+        "compliance_and_regulatory": {
+          "precision": 0.25,
+          "recall": 0.3333333333333333,
+          "f1-score": 0.2857142857142857,
+          "support": 6.0
+        },
+        "contract_management": {
+          "precision": 0.5,
+          "recall": 0.16666666666666666,
+          "f1-score": 0.25,
+          "support": 6.0
+        },
+        "delayed_payments": {
+          "precision": 0.05357142857142857,
+          "recall": 0.3333333333333333,
+          "f1-score": 0.09230769230769231,
+          "support": 9.0
+        },
+        "delays_and_time_overruns": {
+          "precision": 0.21052631578947367,
+          "recall": 0.07272727272727272,
+          "f1-score": 0.10810810810810811,
+          "support": 55.0
+        },
+        "general_project_issues": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 15.0
+        },
+        "governance_and_controls": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 6.0
+        },
+        "human_resources": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 12.0
+        },
+        "infrastructure_and_equipment": {
+          "precision": 0.2830188679245283,
+          "recall": 0.4838709677419355,
+          "f1-score": 0.35714285714285715,
+          "support": 31.0
+        },
+        "land_and_right_of_way": {
+          "precision": 0.0967741935483871,
+          "recall": 0.6,
+          "f1-score": 0.16666666666666666,
+          "support": 5.0
+        },
+        "miscellaneous_administrative": {
+          "precision": 0.5714285714285714,
+          "recall": 0.3888888888888889,
+          "f1-score": 0.4628099173553719,
+          "support": 72.0
+        },
+        "procurement_irregularities": {
+          "precision": 0.38571428571428573,
+          "recall": 0.4576271186440678,
+          "f1-score": 0.4186046511627907,
+          "support": 59.0
+        },
+        "accuracy": 0.27184466019417475,
+        "macro avg": {
+          "precision": 0.18451174696890174,
+          "recall": 0.2951113524104229,
+          "f1-score": 0.17171255918206643,
+          "support": 309.0
+        },
+        "weighted avg": {
+          "precision": 0.2905053888239006,
+          "recall": 0.27184466019417475,
+          "f1-score": 0.25892123092188774,
+          "support": 309.0
+        }
+      }
+    },
+    "SVM_TFIDF_PLUS_LDA": {
+      "accuracy": 0.7346278317152104,
+      "macro_f1": 0.6972137411378897,
+      "weighted_f1": 0.7372314442896917,
+      "classification_report": {
+        "budget_and_funding_issues": {
+          "precision": 0.6071428571428571,
+          "recall": 0.53125,
+          "f1-score": 0.5666666666666667,
+          "support": 32.0
+        },
+        "claims_and_liabilities": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 1.0
+        },
+        "compliance_and_regulatory": {
+          "precision": 0.4,
+          "recall": 0.3333333333333333,
+          "f1-score": 0.36363636363636365,
+          "support": 6.0
+        },
+        "contract_management": {
+          "precision": 0.75,
+          "recall": 0.5,
+          "f1-score": 0.6,
+          "support": 6.0
+        },
+        "delayed_payments": {
+          "precision": 0.9,
+          "recall": 1.0,
+          "f1-score": 0.9473684210526315,
+          "support": 9.0
+        },
+        "delays_and_time_overruns": {
+          "precision": 0.7966101694915254,
+          "recall": 0.8545454545454545,
+          "f1-score": 0.8245614035087719,
+          "support": 55.0
+        },
+        "general_project_issues": {
+          "precision": 0.5263157894736842,
+          "recall": 0.6666666666666666,
+          "f1-score": 0.5882352941176471,
+          "support": 15.0
+        },
+        "governance_and_controls": {
+          "precision": 0.375,
+          "recall": 0.5,
+          "f1-score": 0.42857142857142855,
+          "support": 6.0
+        },
+        "human_resources": {
+          "precision": 0.4666666666666667,
+          "recall": 0.5833333333333334,
+          "f1-score": 0.5185185185185185,
+          "support": 12.0
+        },
+        "infrastructure_and_equipment": {
+          "precision": 0.6666666666666666,
+          "recall": 0.7096774193548387,
+          "f1-score": 0.6875,
+          "support": 31.0
+        },
+        "land_and_right_of_way": {
+          "precision": 0.8333333333333334,
+          "recall": 1.0,
+          "f1-score": 0.9090909090909091,
+          "support": 5.0
+        },
+        "miscellaneous_administrative": {
+          "precision": 0.7222222222222222,
+          "recall": 0.7222222222222222,
+          "f1-score": 0.7222222222222222,
+          "support": 72.0
+        },
+        "procurement_irregularities": {
+          "precision": 1.0,
+          "recall": 0.8305084745762712,
+          "f1-score": 0.9074074074074074,
+          "support": 59.0
+        },
+        "accuracy": 0.7346278317152104,
+        "macro avg": {
+          "precision": 0.6956890542305351,
+          "recall": 0.7101182233870861,
+          "f1-score": 0.6972137411378897,
+          "support": 309.0
+        },
+        "weighted avg": {
+          "precision": 0.7469909415082328,
+          "recall": 0.7346278317152104,
+          "f1-score": 0.7372314442896917,
+          "support": 309.0
+        }
+      }
+    }
+  }
+}

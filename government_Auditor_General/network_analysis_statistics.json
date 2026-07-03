@@ -1,0 +1,19 @@
+{
+  "total_actors": 15,
+  "total_relationships": 43,
+  "statutory_bodies": 11,
+  "contractors": 5,
+  "funding_sources": 3,
+  "projects": 10,
+  "avg_connections_per_actor": 3.909090909090909,
+  "max_connections": 11,
+  "most_connected_actor": "Ministry of Finance (MOFPED)",
+  "top_5_risk_nodes": [
+    "Ministry of Finance (MOFPED)",
+    "Planning (NPA/MOFPED)",
+    "Ministry of Agriculture (MAAIF)",
+    "Uganda National Roads Authority (UNRA)",
+    "Authority Kis Kalangala Infrastructure Services Kopgt Kalang"
+  ],
+  "network_density": 0.4095238095238095
+}

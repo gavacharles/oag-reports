@@ -1,0 +1,14 @@
+,label,total_mentions,pct_of_corpus,trend_slope,trend_r2,trend_p,direction,financial_flagged_sentences,financial_coverage_pct,median_effect_bn,p75_effect_bn,high_impact_cases_100bn,weighted_exposure_index
+procurement_irregularities,Procurement Irregularities,237,19.2,2.917,0.448,0.07,escalating,8,3.4,39.27,53.21,1,29.56
+delays_and_time_overruns,Delays & Time Overruns,220,17.8,0.786,0.018,0.752,escalating,21,9.5,36.62,73.99,4,76.18
+miscellaneous_administrative,Miscellaneous Administrative,288,23.4,3.238,0.149,0.345,escalating,10,3.5,10.03,23.07,0,24.01
+budget_and_funding_issues,Budget & Funding Issues,126,10.2,-0.357,0.006,0.85,de-escalating,5,4.0,3.13,155.55,2,7.09
+infrastructure_and_equipment,Infrastructure & Equipment,122,9.9,0.714,0.041,0.632,escalating,3,2.5,0.0,0.09,0,0.0
+general_project_issues,General Project Issues,62,5.0,-0.881,0.043,0.621,de-escalating,3,4.8,40.85,80.55,1,11.2
+human_resources,Human Resources,48,3.9,0.738,0.185,0.288,escalating,1,2.1,51.3,51.3,0,3.96
+delayed_payments,Delayed Payments,35,2.8,-0.179,0.015,0.773,de-escalating,9,25.7,56.89,500.35,3,36.53
+compliance_and_regulatory,Compliance & Regulatory,26,2.1,-0.429,0.076,0.509,de-escalating,0,0.0,0.0,0.0,0,0.0
+contract_management,Contract Management,23,1.9,-0.107,0.008,0.834,de-escalating,3,13.0,64.75,68.5,0,12.56
+governance_and_controls,Governance & Controls,23,1.9,0.202,0.069,0.529,escalating,1,4.3,28.5,28.5,0,3.38
+land_and_right_of_way,Land & Right Of Way,19,1.5,-0.393,0.135,0.37,de-escalating,3,15.8,96.78,237.94,1,13.75
+claims_and_liabilities,Claims & Liabilities,4,0.3,0.048,0.048,0.604,escalating,0,0.0,0.0,0.0,0,0.0

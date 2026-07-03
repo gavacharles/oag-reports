@@ -1,0 +1,79 @@
+{
+  "source": "/Users/charlesgava/Downloads/Temporal Analysis Research /output/results/government_Auditor_General/audit_infrastructure_reports.csv",
+  "total_documents": 72,
+  "n_topics": 5,
+  "topic_terms": [
+    {
+      "topic": 1,
+      "terms": [
+        "water",
+        "ministry",
+        "implemented ministry",
+        "environment",
+        "ministry water",
+        "environment report",
+        "water environment",
+        "implemented"
+      ]
+    },
+    {
+      "topic": 2,
+      "terms": [
+        "iii",
+        "rural",
+        "energy",
+        "energy rural",
+        "transformation",
+        "rural transformation",
+        "transformation project",
+        "ert iii"
+      ]
+    },
+    {
+      "topic": 3,
+      "terms": [
+        "water",
+        "sewerage",
+        "water sewerage",
+        "national water",
+        "water sanitation",
+        "corporation",
+        "sewerage corporation",
+        "lake victoria"
+      ]
+    },
+    {
+      "topic": 4,
+      "terms": [
+        "project",
+        "transmission",
+        "project report",
+        "expansion",
+        "uetcl report",
+        "uetcl",
+        "transmission line",
+        "line"
+      ]
+    },
+    {
+      "topic": 5,
+      "terms": [
+        "roads",
+        "national roads",
+        "roads authority",
+        "authority",
+        "implemented uganda",
+        "road",
+        "uganda national",
+        "road project"
+      ]
+    }
+  ],
+  "topic_counts": {
+    "1": 22,
+    "2": 9,
+    "3": 12,
+    "4": 23,
+    "5": 6
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "stats": {
+    "Kampala-Entebbe Expressway": {
+      "google_news": 3,
+      "oag": 5,
+      "parliament": 3
+    },
+    "Karuma Hydropower Dam": {
+      "google_news": 3,
+      "oag": 0,
+      "parliament": 3
+    },
+    "Isimba Hydropower Dam": {
+      "google_news": 3,
+      "oag": 0,
+      "parliament": 2
+    },
+    "Malaba-Kampala SGR": {
+      "google_news": 3,
+      "oag": 24,
+      "parliament": 3
+    },
+    "Entebbe Airport Expansion": {
+      "google_news": 3,
+      "oag": 0,
+      "parliament": 2
+    }
+  },
+  "total": 57,
+  "date": "2026-02-18"
+}

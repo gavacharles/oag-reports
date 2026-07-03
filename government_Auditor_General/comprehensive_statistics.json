@@ -1,0 +1,54 @@
+{
+  "total_sentences": 1233,
+  "total_categories": 13,
+  "years_covered": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "total_projects": 72,
+  "top_5_drivers": [
+    {
+      "driver": "miscellaneous_administrative",
+      "count": 288
+    },
+    {
+      "driver": "procurement_irregularities",
+      "count": 237
+    },
+    {
+      "driver": "delays_and_time_overruns",
+      "count": 220
+    },
+    {
+      "driver": "budget_and_funding_issues",
+      "count": 126
+    },
+    {
+      "driver": "infrastructure_and_equipment",
+      "count": 122
+    }
+  ],
+  "yearly_totals": {
+    "2018": 121,
+    "2019": 270,
+    "2020": 45,
+    "2021": 81,
+    "2022": 184,
+    "2023": 147,
+    "2024": 189,
+    "2025": 196
+  },
+  "driver_growth": {
+    "miscellaneous_administrative": 115.4,
+    "procurement_irregularities": 166.7,
+    "delays_and_time_overruns": -10.3,
+    "budget_and_funding_issues": -4.8,
+    "infrastructure_and_equipment": 214.3
+  }
+}

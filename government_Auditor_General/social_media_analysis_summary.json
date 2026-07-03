@@ -1,0 +1,24 @@
+{
+  "social_media_articles_count": 14,
+  "social_media_themes": {
+    "Water & Environment": 0,
+    "Rural Energy": 1,
+    "Power Transmission": 0,
+    "Roads & Transport": 11,
+    "Urban Infrastructure": 1,
+    "Cross-sector": 0
+  },
+  "social_media_entities": {
+    "Museveni": 2,
+    "World Bank": 1,
+    "Afcons": 1,
+    "contractors": 1
+  },
+  "source_comparison": {
+    "oag_reports": 72,
+    "social_media_articles": 14,
+    "parliament_articles": 57
+  },
+  "extracted_article_samples": 5,
+  "analysis_date": "2026-02-17"
+}
