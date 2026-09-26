@@ -129,7 +129,16 @@ p(
     "infrastructure dispute landscape is genuinely place-based, that land acquisition and delay disputes "
     "concentrate in the central mailo-tenure corridor around the capital for reasons that a purely institutional "
     "or contractual account would miss, and that a district-level spatial risk screen is a practical, "
-    "low-cost addition to project appraisal in a data-scarce environment.",
+    "low-cost addition to project appraisal in a data-scarce environment. Two further checks strengthen and "
+    "qualify this picture. Triangulated against an independently constructed newspaper corpus covering the "
+    "same country and period, the two sources agree emphatically that Kampala and Wakiso dominate (both "
+    "far ahead of every other district in both sources) but show no significant rank agreement beyond those "
+    "two districts (Spearman ρ = 0.369, p = 0.160 overall; ρ = 0.051, p = 0.861 excluding them) — real "
+    "external validation for the headline pattern, real caution against its finer structure. A difference-"
+    "in-differences test around the 2021 decision to dissolve the Uganda National Roads Authority finds "
+    "road-sector disputes rising 52% while every other sector fell 37% over the identical window (p = "
+    "0.004), a striking and precisely dated pattern whose causal direction this single-source design "
+    "cannot establish.",
 )
 p("Keywords: construction disputes; spatial analysis; Uganda; Getis-Ord Gi*; geographically weighted "
   "regression; land tenure; infrastructure governance; text mining", italic=True, size=10)
@@ -254,7 +263,7 @@ p(
     "categories – delay/time overrun and claims and disputes – were added after an initial read of the corpus "
     "showed substantial, recurring language (e.g. 'behind schedule', 'stalled', 'litigation', 'liquidated "
     "damages') that the conventional five-category scheme had no home for. Classifier performance against a "
-    "held-out, independently coded sample is reported in Section 3.4; the headline result – macro-F1 = [XX] "
+    "held-out, independently coded sample is reported in Section 3.4; the headline result – macro-F1 = 0.627 "
     "(Section 3.4) – should be read alongside the category counts throughout this paper, since a keyword "
     "system's errors are not random and are more informative read in the confusion pattern (Table 5) than in "
     "the aggregate score alone."
@@ -342,35 +351,56 @@ h2("3.4 Classifier validation")
 p(
     "Because the driver classifier (Section 3.1) is a transparent keyword system rather than a trained "
     "model, its errors are not random and need checking directly rather than assumed away. A stratified "
-    "sample of [XX] sentences (drawn across the eight categories, seed 42) was independently re-coded "
-    "against a written codebook by a rater blind to the classifier's assigned labels, judging which of the "
-    "eight categories genuinely apply to each sentence (a sentence may belong to none, one, or several). "
-    "This is a disclosed AI-assisted single-rater validation, not a claim of independent human inter-coder "
-    "reliability, and is reported as such: with only one rater, no inter-coder statistic such as Cohen's "
-    "kappa is computable or reported. Table 3 gives the resulting per-category precision, recall and F1 "
-    "against this reference set; macro-averaged F1 is [XX]."
+    "sample of 362 sentences (46% of the 792-sentence analysis corpus; up to 50 per category, seed 42, "
+    "fewer for the two smallest strata – claims and disputes, 47, and cost overrun, 15) was independently "
+    "re-coded against a written codebook by a rater blind to the classifier's assigned labels, judging "
+    "which of the eight categories genuinely apply to each sentence (a sentence may belong to none, one, "
+    "or several). This is a disclosed AI-assisted single-rater validation, not a claim of independent "
+    "human inter-coder reliability, and is reported as such: with only one rater, no inter-coder statistic "
+    "such as Cohen's kappa is computable or reported; 69% of gold codes were assigned at high confidence, "
+    "27% medium and 4% low (recorded per sentence). A striking structural finding surfaced during coding "
+    "in its own right: 85 of the 362 sampled sentences (23%) were judged to carry none of the eight "
+    "categories at all – mostly table-of-contents fragments and generic strategic-plan boilerplate that "
+    "survived the relevance filter without describing a substantive audit finding – a contamination rate "
+    "the classifier itself cannot reveal, since by construction it never emits a zero-label sentence into "
+    "the corpus. Table 3 gives the resulting per-category precision, recall and F1 against this reference "
+    "set; macro-averaged F1 is 0.627 (micro-averaged F1 = 0.638)."
 )
 add_table(
     ["Category", "n gold-positive", "Precision", "Recall", "F1"],
     [
-        ["Delay / time overrun", "[XX]", "[XX]", "[XX]", "[XX]"],
-        ["Cost overrun", "[XX]", "[XX]", "[XX]", "[XX]"],
-        ["Claims & disputes", "[XX]", "[XX]", "[XX]", "[XX]"],
-        ["Land / right-of-way", "[XX]", "[XX]", "[XX]", "[XX]"],
-        ["Contract management", "[XX]", "[XX]", "[XX]", "[XX]"],
-        ["Delayed payments", "[XX]", "[XX]", "[XX]", "[XX]"],
-        ["Governance & oversight", "[XX]", "[XX]", "[XX]", "[XX]"],
-        ["Procurement irregularity", "[XX]", "[XX]", "[XX]", "[XX]"],
-        ["Macro average", "[XX]", "[XX]", "[XX]", "[XX]"],
+        ["Delay / time overrun", "125", "1.000", "0.400", "0.571"],
+        ["Cost overrun", "32", "0.867", "0.406", "0.553"],
+        ["Claims & disputes", "47", "0.735", "0.766", "0.750"],
+        ["Land / right-of-way", "64", "0.925", "0.766", "0.838"],
+        ["Contract management", "83", "0.717", "0.518", "0.601"],
+        ["Delayed payments", "42", "0.391", "0.643", "0.487"],
+        ["Governance & oversight", "28", "0.333", "0.643", "0.439"],
+        ["Procurement irregularity", "65", "0.724", "0.846", "0.780"],
+        ["Macro average", "—", "0.711", "0.624", "0.627"],
     ],
 )
 caption("Table 3. Classifier performance against an independently coded reference sample "
         "(disclosed single-rater validation; see Section 3.4).")
 p(
-    "[XX: one to two sentences on the strongest and weakest categories and the dominant confusion pattern, "
-    "filled in from the validation write-up once scoring is complete.] The category term lists themselves "
-    "are given in full in the Appendix (Table A1) so that every classification decision in this paper is "
-    "auditable against its source rule, not only against the validation sample."
+    "The macro-F1 hides a wide and informative spread that pulls in two opposite directions. "
+    "Land/right-of-way (F1 = 0.838) and procurement irregularity (F1 = 0.780) are the cleanest categories: "
+    "their vocabulary ('land acquisition', 'right of way', 'encroachment'; 'procurement', 'bid', 'tender') "
+    "maps closely onto how OAG reports actually phrase these findings. Governance/oversight (precision "
+    "0.333) and delayed payments (precision 0.391) over-trigger badly on generic boilerplate – terms such "
+    "as 'oversight', 'accountability' and 'arrears' fire in strategic-objective or non-infrastructure "
+    "arrears text with no institutional-control or contractor-payment finding attached; roughly a third to "
+    "a half of what the classifier flags in each of these two categories is, on independent reading, not "
+    "actually about that construct. The opposite failure affects delay/time overrun: precision is perfect "
+    "(1.000, zero false positives across the sample) but recall is only 0.400, because delay content in "
+    "OAG narrative is very often phrased through procurement, land, payment or contract language rather "
+    "than the delay-specific regex terms ('extension of time', 'behind schedule'). Since delay is this "
+    "paper's most central construct, this recall gap means the delay-driver counts used throughout the "
+    "results are very likely undercounted by more than half, and any comparison of delay's magnitude "
+    "against other categories should be read as a conservative lower bound, not a precise ranking. The "
+    "category term lists themselves are given in full in the Appendix (Table A1) so that every "
+    "classification decision in this paper is auditable against its source rule, not only against the "
+    "validation sample."
 )
 
 # ==================================================================
@@ -417,7 +447,7 @@ p(
 )
 h2("4.4 Scope note on validation")
 p(
-    "The explanatory results in Sections 5.4–5.6 are reported as candidate, testable associations rather "
+    "The explanatory results in Sections 5.5–5.7 are reported as candidate, testable associations rather "
     "than settled findings. Independent validation of the spatial clusters and candidate explanations against "
     "practitioner or expert judgement is identified as a priority extension in Section 7.2 but is not carried "
     "out in the present paper."
@@ -491,7 +521,64 @@ p(
     "years) rather than evidence of genuine year-on-year stability."
 )
 
-h2("5.4 Explanatory spatial regression")
+h3("The UNRA-to-MoWT transition")
+p(
+    "RQ2 asks specifically about the 2021 Government of Uganda decision to fold the Uganda National Roads "
+    "Authority (UNRA) back into MoWT, formally implemented through repeal legislation in November 2024 after "
+    "a multi-year transitional period. 2021, the policy-announcement year, is used as the break point here "
+    "because it is the one that leaves usable data on both sides within this study's 2017–2025 window; the "
+    "legal dissolution date falls too close to the window's end to support an 'after' period of any size. "
+    "A difference-in-differences comparison of road-sector (UNRA's domain) project mentions against every "
+    "other sector, 2017–2020 versus 2021–2025, finds a real and statistically significant divergence: road "
+    "mentions rose from 5.25 to 8.00 per year (+52%) while non-road mentions fell from 35.50 to 22.20 per "
+    "year (−37%) over the identical window (DiD = +16.05 mentions/year; χ² = 8.42, p = 0.004 on the "
+    "underlying 2×2 sector-by-period count table). Geographically, road disputes' mean distance from Kampala "
+    "barely moved (150.3 km to 143.8 km) while non-road disputes' centre of gravity shifted markedly closer "
+    "to the capital (167.8 km to 147.8 km) over the same period."
+)
+p(
+    "This pattern is real and precisely dated, but this design cannot establish its direction of causality, "
+    "and the more cautious reading deserves equal billing with the more publication-friendly one. UNRA's "
+    "accumulating procurement and delay controversies across 2017–2021 were part of the public and political "
+    "case made for dissolving it, not necessarily a consequence of the dissolution decision; an alternative "
+    "reading is that legislative and audit attention was reallocated toward the road sector specifically "
+    "because it was under active institutional scrutiny during this period, independent of whether underlying "
+    "road-project performance changed at all. All three stories — transition disrupted delivery; rising "
+    "disputes drove the decision to dissolve; scrutiny reallocated audit attention — are consistent with the "
+    "same difference-in-differences estimate, and this single-source, non-experimental design cannot "
+    "adjudicate between them."
+)
+
+h2("5.4 Triangulation against an independent source")
+p(
+    "Sections 5.1–5.3 rest entirely on one data source, with the audit-coverage caveat stated throughout. An "
+    "independent check is available: the companion Observer newspaper study (same research team, entirely "
+    "different source documents — news articles, not audit reports — and a separately built extraction "
+    "pipeline) maintains a curated gazetteer of dispute-relevant article mentions by place, 2016–2025. Of its "
+    "29 named places, 23 map to a single Uganda district (the remainder are cross-border or sub-regional "
+    "references, e.g. 'Kenya', 'Karamoja', excluded here), collapsing to 16 districts that also appear in "
+    "the OAG data. Across all 16, the Spearman rank correlation between newspaper article mentions and OAG "
+    "project counts is positive but not significant (ρ = 0.369, p = 0.160). Both sources, however, agree "
+    "emphatically on the single largest fact: Kampala and Wakiso dominate both rankings by a wide margin "
+    "(1,081 newspaper mentions / 31 OAG projects, and 510 / 18, respectively — both far ahead of every other "
+    "district in both sources). Excluding just those two districts, the correlation among the remaining 14 "
+    "collapses to essentially zero (ρ = 0.051, p = 0.861)."
+)
+figure(f"{BASE}/11_triangulation/figure_triangulation.png", width=5.5,
+       cap="Figure 4. District-level comparison between OAG audit-derived and Observer newspaper-derived "
+           "dispute geography (16 overlapping districts).")
+p(
+    "Two independently constructed data sources therefore agree strongly on the paper's headline finding — "
+    "the Central corridor's dominance — while disagreeing on finer district-level ranking. This is read as "
+    "genuine external validation for the corridor-level pattern reported in Section 5.2, and equally genuine "
+    "caution against over-interpreting this paper's district-level fine structure beyond that headline: a "
+    "newspaper's editorial and geographic salience and an auditor's coverage pattern are different lenses on "
+    "the same underlying reality, and where they diverge (Jinja ranks third in newspaper mentions but sixth "
+    "in OAG project count; Kayunga ranks low in newspaper mentions but mid-table in OAG projects), that "
+    "divergence more plausibly reflects each source's own selection process than a contradiction to resolve."
+)
+
+h2("5.5 Explanatory spatial regression")
 p(
     "Table 5 reports standardised OLS coefficients for the three modelled outcomes (spatial lag and error "
     "models return materially the same coefficients and are omitted from the table for brevity; full results "
@@ -503,7 +590,7 @@ p(
     "is statistically indistinguishable from zero. For land/right-of-way, population is again significant "
     "(β = 0.08, p = 0.017) but dependency ratio only reaches significance in the OLS specification (β = −0.07, "
     "p = 0.029); residual spatial dependence is not fully absorbed here (Moran's I on residuals = 0.068, "
-    "LM-lag p = 0.074), a result taken up in Section 5.5. For delay/time overrun, dependency ratio (β = −0.13, "
+    "LM-lag p = 0.074), a result taken up in Section 5.6. For delay/time overrun, dependency ratio (β = −0.13, "
     "p = 0.002) and mailo tenure (β = 0.15, p = 0.003) are robust across every specification; distance to "
     "Kampala is positive (β ≈ 0.09–0.10) but only marginally significant (p = 0.08–0.10), and rainfall reaches "
     "conventional significance only in the lag/error specifications (β ≈ 0.09, p ≈ 0.05)."
@@ -526,7 +613,7 @@ add_table(
 caption("Table 5. Standardised OLS coefficients (p-values in parentheses), 135 districts. "
         "Spatial lag/error coefficients and standard errors for all three outcomes are in the replication data.")
 
-h2("5.5 Geographically weighted regression")
+h2("5.6 Geographically weighted regression")
 p(
     "For overall project intensity, GWR selects a bandwidth of 133 of 135 districts — effectively the whole "
     "country — and its AICc (253.5) is higher than the global model's (251.0): GWR is not preferred, and the "
@@ -546,7 +633,7 @@ figure(f"{BASE}/08_gwr/figure3_gwr_land_coefficients.png", width=6.5,
        cap="Figure 3. GWR local coefficients for land/right-of-way dispute intensity "
            "(hatched = not significant at that location).")
 
-h2("5.6 Random Forest / SHAP robustness check")
+h2("5.7 Random Forest / SHAP robustness check")
 p(
     "Leave-one-out cross-validated R² is 0.276 for overall project intensity, 0.119 for land/right-of-way and "
     "0.057 for delay/time overrun – the last essentially indistinguishable from a model with no predictive "
@@ -560,9 +647,9 @@ p(
     "yet well identified by the available sample, not that either method is right."
 )
 
-h2("5.7 Robustness checks")
+h2("5.8 Robustness checks")
 p(
-    "Two further checks test whether Sections 5.2–5.4's results depend on specific modelling choices. First, "
+    "Two further checks test whether Sections 5.2 and 5.5's results depend on specific modelling choices. First, "
     "Moran's I was recomputed under two k-nearest-neighbour weights specifications (k = 5, k = 8) in place of "
     "Queen contiguity. For overall project intensity and land/right-of-way, the result is unchanged: "
     "significant (p < 0.01) under all three weights specifications. For delay/time overrun, however, it is "
@@ -573,12 +660,12 @@ p(
 p(
     "Second, the three district-level outcomes were re-fitted as standard (non-spatial) Negative Binomial "
     "GLMs on the raw counts, the distributional alternative to the log1p-OLS specification used in Section "
-    "5.4 for comparability with the spatial-econometrics toolkit. For delay/time overrun, the Section 5.4 "
+    "5.5 for comparability with the spatial-econometrics toolkit. For delay/time overrun, the Section 5.5 "
     "result holds up: dependency ratio (p = 0.011) and mailo tenure (p = 0.049) remain significant with the "
     "same sign. For overall project intensity, population and dependency ratio remain significant "
     "(p = 0.002 each) but mailo tenure weakens to marginal (p = 0.081, was p = 0.013 under OLS). For "
     "land/right-of-way, the picture changes materially: nothing clears conventional significance except a "
-    "marginal distance-to-Kampala effect (p = 0.054), and population — significant in every Section 5.4 "
+    "marginal distance-to-Kampala effect (p = 0.054), and population — significant in every Section 5.5 "
     "specification (p = 0.017–0.029) — is not significant here (p = 0.278). The land-dispute regression "
     "findings, in other words, are not robust to this change in functional form, where the delay findings "
     "are. This is taken up directly in Section 6.2."
@@ -614,7 +701,7 @@ p(
     "identification problem this paper cannot resolve with the available data, and returns to in Section 7.1. "
     "Both readings agree that land tenure regime, not merely distance or population, is doing real "
     "explanatory work, which is itself the more defensible and portable claim. That claim needs one further "
-    "qualification from Section 5.7: the global land/right-of-way model's other significant variable "
+    "qualification from Section 5.8: the global land/right-of-way model's other significant variable "
     "(population) does not survive the Negative Binomial robustness check, so the paper's confidence in the "
     "land-tenure result rests more heavily on the GWR local-coefficient pattern, which is a within-model "
     "comparison unaffected by the OLS-versus-count-model choice, than on the global regression coefficient "
@@ -622,7 +709,7 @@ p(
 )
 h2("6.3 When a global model is enough, and when it isn't")
 p(
-    "The GWR results (Section 5.5) sharpen H3 rather than confirming it wholesale: spatial non-stationarity "
+    "The GWR results (Section 5.6) sharpen H3 rather than confirming it wholesale: spatial non-stationarity "
     "is real for land/right-of-way but not for overall project intensity or, on this evidence, for delay. "
     "This matters for how the paper's findings should be used. A single national coefficient for 'how "
     "remoteness relates to dispute intensity' is an adequate summary for overall audit activity, but a single "
@@ -647,6 +734,23 @@ p(
     "being the clearest named example in the corpus). This is a genuine data-limitations finding, not a null "
     "result to be explained away, and it means the paper's contribution is about where disputes concentrate "
     "and why in a place-based sense, not about who is contracted to deliver them."
+)
+
+h2("6.5 An institutional transition, and the limits of a single-source design")
+p(
+    "Section 5.3's difference-in-differences result — road-sector disputes rising 52% while every other "
+    "sector fell 37% across the identical 2017–2020-to-2021–2025 window, precisely bracketing UNRA's "
+    "dissolution — is the paper's most striking single number, and the one most at risk of being over-read. "
+    "The data cannot distinguish three consistent stories: that institutional disruption during the "
+    "transition itself degraded road-project delivery; that a rising tide of UNRA-specific scandal was part "
+    "of the political case for the transition, running the causal arrow the other way; or that legislative "
+    "and audit attention was simply reallocated toward a sector under active scrutiny, independent of any "
+    "real change in underlying project performance. A single audit-derived corpus, however carefully "
+    "geocoded and validated, is not built to arbitrate between these. What it can responsibly claim is that "
+    "the transition period is a real, sector-specific inflection point in the public record, worth further "
+    "attention with a design built to separate these explanations — before-and-after contractor or PPDA "
+    "administrative-review data, for instance, would at least partially disentangle audit-attention effects "
+    "from delivery effects, and is identified as priority future work in Section 7.3."
 )
 
 # ==================================================================
@@ -676,27 +780,40 @@ p(
     "or a trained named-entity-recognition model — auditable, since every project traces to a specific source "
     "sentence, but not mechanically reproducible by re-running a script, and a second independent read of the "
     "lower-confidence extractions would let a future version of this work report a genuine inter-rater "
-    "reliability statistic. The land-tenure variable is a documented regional proxy, not a parcel- or "
+    "reliability statistic. The driver classifier itself carries a documented, uneven error profile (Section "
+    "3.4): macro-F1 = 0.627 against an independently coded reference sample, with delay/time overrun in "
+    "particular showing perfect precision but only 0.40 recall, so delay-driver counts throughout this paper "
+    "should be read as a conservative lower bound rather than a complete accounting, and governance/oversight "
+    "and delayed-payments counts (precision 0.33 and 0.39) should be read as inflated by generic-keyword "
+    "over-triggering; this is a single AI-rater validation, not a human inter-coder reliability study, and no "
+    "kappa statistic is claimed. The land-tenure variable is a documented regional proxy, not a parcel- or "
     "district-level GIS layer, because no such dataset exists publicly for Uganda. The district-level "
-    "regression (n = 135) is small and its outcome variables are zero-inflated counts modelled after a log "
-    "transform, a specification chosen for comparability with the standard spatial-econometrics toolkit "
-    "(Section 4.3) rather than because it is the ideal model for sparse count data; a negative-binomial or "
-    "zero-inflated specification is a natural robustness extension. Finally, the disagreement between the "
-    "linear and Random Forest models on distance-to-Kampala's effect on delay (Section 5.6) is left "
-    "unresolved rather than adjudicated, because resolving it responsibly requires either more data or "
+    "regression (n = 135) is small; Section 5.8's negative-binomial robustness check confirms the OLS/spatial "
+    "results for delay and cost overrun but shows the land-tenure effect loses significance under a count "
+    "specification, a genuine disagreement reported rather than resolved. Section 5.4's triangulation against "
+    "an independent newspaper corpus supports the paper's headline spatial concentration but explicitly does "
+    "not extend that support to the finer district-level ranking. Finally, the disagreement between the "
+    "linear and Random Forest models on distance-to-Kampala's effect on delay (Section 5.7), and the three "
+    "competing causal readings of the UNRA-to-MoWT difference-in-differences result (Section 6.5), are left "
+    "unresolved rather than adjudicated, because resolving them responsibly requires either more data or "
     "independent expert judgement, neither of which this paper supplies."
 )
 h2("7.3 Future work")
 p(
-    "Three extensions follow directly from the limitations above. First, cross-source validation: triangulating "
-    "the OAG-derived pattern against Auditor General exception reports, PPDA administrative review decisions, "
-    "and, where accessible, court records, would test whether the audit-visible pattern documented here matches "
-    "the pattern in formally litigated disputes. Second, true road and transmission-line alignments from MoWT "
-    "GIS data or OpenStreetMap way-matching would replace this paper's straight-line proxies. Third, "
-    "independent practitioner or expert review of the spatial clusters and candidate explanations in Section 6 "
-    "would test whether the associations reported here hold up to domain judgement, particularly for the "
-    "unresolved distance-to-Kampala result and the GWR-identified east–west gradient in the mailo-tenure "
-    "effect."
+    "Four extensions follow directly from the limitations above. First, deeper cross-source validation: this "
+    "paper's Section 5.4 triangulates district-level intensity against an independent newspaper corpus and "
+    "finds agreement on the headline concentration but not the finer ranking; extending that triangulation to "
+    "PPDA administrative review decisions and, where accessible, court records would test whether the "
+    "audit-visible pattern matches the pattern in formally litigated disputes specifically. Second, true road "
+    "and transmission-line alignments from MoWT GIS data or OpenStreetMap way-matching would replace this "
+    "paper's straight-line proxies. Third, independent practitioner or expert review of the spatial clusters "
+    "and candidate explanations in Section 6 would test whether the associations reported here hold up to "
+    "domain judgement, particularly for the unresolved distance-to-Kampala result and the GWR-identified "
+    "east–west gradient in the mailo-tenure effect. Fourth, a second independent rater on the classifier "
+    "validation sample (Section 3.4) would allow a genuine inter-coder reliability statistic, and a revised "
+    "delay/time-overrun term list – informed by this validation's finding that delay is usually narrated "
+    "through procurement, land, payment or contract language rather than its own literal terms – would "
+    "directly address this paper's single most consequential measurement gap."
 )
 h2("7.4 Conclusion")
 p(
