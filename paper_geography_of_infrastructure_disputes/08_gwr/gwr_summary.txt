@@ -1,0 +1,6 @@
+Selected bandwidth: 133.0 nearest neighbours of 135 districts
+Global OLS AICc: 246.89
+GWR AICc: 253.46
+Local R2 range: 0.326 to 0.568 (mean 0.471)
+
+None
