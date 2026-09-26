@@ -1,0 +1,15 @@
+,0
+break_year,2021
+pre_years,"[2017, 2018, 2019, 2020]"
+post_years,"[2021, 2022, 2023, 2024, 2025]"
+road_rate_pre,5.25
+road_rate_post,8.0
+nonroad_rate_pre,35.5
+nonroad_rate_post,22.2
+diff_in_diff,16.05
+road_dist_pre_km,150.3
+road_dist_post_km,143.8
+nonroad_dist_pre_km,167.8
+nonroad_dist_post_km,147.8
+chi2,8.422
+chi2_p,0.0037

@@ -1,0 +1,315 @@
+project_name,year,is_road,distance_to_kampala_km,period
+Isimba Hydropower Project (Isimba HPP),2018,False,81.6,pre
+Isimba Hydropower Project (Isimba HPP),2019,False,81.6,pre
+Isimba Hydropower Project (Isimba HPP),2023,False,81.6,post
+Isimba Hydropower Project (Isimba HPP),2025,False,81.6,post
+"UPDF National Referral Hospital, Lower Mbuya",2022,False,6.0,post
+"UPDF National Referral Hospital, Lower Mbuya",2023,False,6.0,post
+"UPDF National Referral Hospital, Lower Mbuya",2024,False,6.0,post
+Busega-Mpigi Expressway,2018,True,24.2,pre
+Busega-Mpigi Expressway,2024,True,24.2,post
+Entebbe International Airport Upgrading and Expansion Project,2018,False,30.7,pre
+Entebbe International Airport Upgrading and Expansion Project,2019,False,30.7,pre
+Kanara Water Supply System (Phase II & III),2023,False,248.0,post
+Karuma Hydropower Project,2019,False,216.7,pre
+Karuma Hydropower Project,2024,False,216.7,post
+Kikazi Street-Ntara Circular Road,2023,True,,post
+Kiruddu National Referral Hospital,2022,False,8.1,post
+Kiruddu National Referral Hospital,2024,False,8.1,post
+Kiruddu National Referral Hospital,2025,False,8.1,post
+Mbarara-Nkenda Transmission Line,2018,False,194.3,pre
+Mbarara-Nkenda Transmission Line,2019,False,194.3,pre
+Mulago National Referral Hospital,2018,False,3.1,pre
+Mulago National Referral Hospital,2022,False,3.1,post
+Mulago National Referral Hospital,2025,False,3.1,post
+New Parliamentary Chambers,2024,False,0.5,post
+New Parliamentary Chambers,2025,False,0.5,post
+Soroti Regional Referral Hospital,2018,False,193.2,pre
+Soroti Regional Referral Hospital,2024,False,193.2,post
+Standard Gauge Railway (SGR) Project,2018,False,,pre
+Standard Gauge Railway (SGR) Project,2023,False,,post
+Tororo-Gulu Railway Line Rehabilitation,2024,False,175.7,post
+Tororo-Gulu Railway Line Rehabilitation,2025,False,175.7,post
+Butabika National Referral Mental Hospital,2018,False,8.4,pre
+Butabika National Referral Mental Hospital,2023,False,8.4,post
+East African Crude Oil Pipeline (EACOP) Project,2022,False,,post
+East African Crude Oil Pipeline (EACOP) Project,2024,False,,post
+Hoima-Nkenda Transmission Line,2018,False,186.1,pre
+Hoima-Nkenda Transmission Line,2019,False,186.1,pre
+Kabalega Industrial Park 240MW Substation,2023,False,214.0,post
+Kabalega Industrial Park 240MW Substation,2024,False,214.0,post
+Kafunta-Buwampa Road (9.5km),2023,True,,post
+Kafunta-Buwampa Road (9.5km),2025,True,,post
+Kampala Sanitation Program (KSP),2018,False,0.5,pre
+Kampala Storage Terminal,2022,False,0.5,post
+Kampala-Jinja Expressway Project,2023,True,41.6,post
+Kampala-Jinja Expressway Project,2024,True,41.6,post
+Kawempe National Referral Hospital (KNRH),2024,False,5.9,post
+Kawempe National Referral Hospital (KNRH),2025,False,5.9,post
+Kayunga Hospital Rehabilitation Project,2019,False,81.6,pre
+Mandela National Stadium (Namboole),2018,False,9.7,pre
+Mandela National Stadium (Namboole),2019,False,9.7,pre
+Mukono-Malaba Railway Section Rehabilitation,2024,False,43.8,post
+Naguru National Referral Hospital (350-Bed Redevelopment),2025,False,4.2,post
+Nalubaale-Kiira Hydropower Plants Rehabilitation,2022,False,67.5,post
+Nalubaale-Kiira Hydropower Plants Rehabilitation,2025,False,67.5,post
+Nansana-Kireka-Biira Road,2018,True,8.1,pre
+Nansana-Kireka-Biira Road,2025,True,8.1,post
+New Kampala Port at Bukasa,2025,False,5.5,post
+Njeru Government Stock Farm,2018,False,64.6,pre
+Njeru Government Stock Farm,2025,False,64.6,post
+Oil Jetty and Pipeline at JST,2022,False,83.0,post
+Oil Jetty and Pipeline at JST,2025,False,83.0,post
+Tororo-Lira Transmission Line,2018,False,171.9,pre
+Tororo-Lira Transmission Line,2019,False,171.9,pre
+UWEC Floating Restaurant (Pier),2018,False,30.7,pre
+UWEC Floating Restaurant (Pier),2019,False,30.7,pre
+Yumbe Hospital Rehabilitation Project,2019,False,381.5,pre
+Abok Seed School Construction,2018,False,248.7,pre
+Acomai Irrigation Scheme,2022,False,219.3,post
+Aduku Seed Secondary School,2019,False,187.8,pre
+Agereger Primary School Classroom Block,2018,False,224.0,pre
+Amuru Seed Secondary School,2019,False,317.5,pre
+Anaka Central Primary School Works,2018,False,263.7,pre
+Arua Regional Office Construction,2023,False,333.3,post
+Atiak Sugar Factory,2018,False,331.4,pre
+Ayerolwango-Aswa River Community Road,2024,True,,post
+Banamywa Seed School,2019,False,,pre
+Biyaya Secondary School,2023,False,351.6,post
+Box Culvert on Ceke Stream,2018,False,264.0,pre
+Bugolobi Project (Uganda Property Holdings),2024,False,4.6,post
+Buhara Seed Secondary School,2019,False,338.9,pre
+Bukalasa Agricultural College,2022,False,44.9,post
+Bukamba Health Centre,2019,False,129.4,pre
+Bukango Seed School,2019,False,136.0,pre
+Bulaga Health Centre Upgrade,2019,False,10.9,pre
+Bulamba Primary School Classroom Block,2018,False,60.7,pre
+Bulegenyi Town Council Water Supply System,2018,False,,pre
+Bulindo-Nsansa-Namugongo Road,2023,True,13.0,post
+Bunambutye Health Centre II-III Upgrade,2019,False,217.0,pre
+Bunamwaya-Kisigula-Mutundwe-Mirembe Road,2018,True,6.3,pre
+Busia One Stop Border Post,2021,False,159.8,post
+Busoga Loop Railway Line (Iganga-Kigulu section),2023,False,112.0,post
+Butaaka Health Centre II,2019,False,46.4,pre
+Buvuma District Administration Block Phase II,2018,False,97.6,pre
+Buvuma Health Centre IV,2018,False,97.6,pre
+Bwetyabya UMEA Primary School Facilities,2018,False,,pre
+Bwondha Primary School Classroom Blocks,2023,False,110.6,post
+Cathedral-Mugurusi Road,2019,True,72.5,pre
+Chakulia Health Centre II to III Upgrade,2019,False,403.0,pre
+Chebaser-Kapkwateny Road (NUSAF sub-project),2018,True,231.9,pre
+China-Uganda Friendship Hospital (Naguru),2018,False,4.2,pre
+Chungambe Trading Centre Mini Piped Water Scheme,2023,False,,post
+Corner Bangladesh Road Sealing,2018,True,,pre
+Corner Pa Lagara-Monroc Market Road (14.7km),2023,True,,post
+Elegu One Stop Border Post,2021,False,365.8,post
+Entebbe Hospital,2018,False,30.7,pre
+Enterprise Uganda Office Block,2023,False,0.5,post
+Farm Access Roads Rehabilitation - Bukwo District (11km),2023,True,257.0,post
+Farm Access Roads Rehabilitation - Butebo and Pallisa Districts (28km),2023,True,167.2,post
+"Farm Access Roads Rehabilitation - Kabonera/Kyasiga/Kyanamukaka, Masaka District (17.7km)",2023,True,132.6,post
+Farm Access Roads Rehabilitation - Kamwenge District (37km),2023,True,218.6,post
+Farm Access Roads Rehabilitation - Kapchorwa District (13km),2023,True,231.4,post
+Farm Access Roads Rehabilitation - Kasanda and Mubende Districts (26km),2023,True,111.2,post
+"Farm Access Roads Rehabilitation - Menziro-Kateera/Kasanvu-Kyakatuma/Kyeere, Kyotera District",2023,True,,post
+Farm Access Roads Rehabilitation - Mpigi District (7.8km),2023,True,42.0,post
+Fort Portal Beneficiation Centre,2023,False,258.9,post
+Fort Portal Regional Referral Hospital,2018,False,258.9,pre
+Fort Portal Substation,2023,False,258.9,post
+Gaba Water Treatment Plant Project,2022,False,5.7,post
+Gem Farm Bailey Bridge,2019,False,331.4,pre
+"Gerenge Ferry Landing Site, Katabi Town Council",2023,False,16.6,post
+Goma HC III Maternity Ward,2018,False,16.1,pre
+Gombe Hospital,2018,False,54.2,pre
+Gulu University Infrastructure,2018,False,303.4,pre
+Gulu-Agago Transmission Line,2023,False,299.6,post
+Gwot Apwoyo Zonal Animal Disease Control Center,2022,False,,post
+Hoima City Stadium,2024,False,211.6,post
+Hoima Regional Referral Hospital,2018,False,211.6,pre
+Hoima Town Roads,2022,True,211.6,post
+Hoima-Busunju Road,2025,True,130.8,post
+Insurance Regulatory Authority Office Building,2018,False,0.5,pre
+Ishasha Bridge,2022,False,349.5,post
+Isimba-Bujagali Transmission Line,2019,False,119.9,pre
+Isingiro Fruit Factory,2018,False,223.4,pre
+Itula-Lomunga Parish Piped Water Extension,2023,False,367.4,post
+Jinja Goods Shed (Uganda Railways),2025,False,83.0,post
+KW-LV WATSAN II Package 4B (Kampala Water Treatment Plant),2022,False,0.5,post
+Kaabong Bridge,2019,False,413.7,pre
+Kaabong Valley Dam,2023,False,413.7,post
+Kabaale Health Centre II,2019,False,193.5,pre
+Kabaale Industrial Park,2022,False,214.0,post
+Kabaale International Airport,2025,False,214.0,post
+Kabaale International Airport Access Road,2025,True,214.0,post
+Kabala-Kaket Road,2019,True,178.2,pre
+Kabale International Airport,2024,False,337.1,post
+Kabale Regional Referral Hospital,2025,False,337.1,post
+Kabale Regional Referral Hospital Surgical Complex,2025,False,337.1,post
+Kaberamaido Technical Institute,2022,False,164.0,post
+Kabindula Swamp Crossing,2019,False,132.4,pre
+Kaitabawala-Kisozi-Busota Road,2019,True,75.2,pre
+Kakogha Bridge,2019,False,316.2,pre
+Kakyeka Stadium Redevelopment,2024,False,239.1,post
+Kalongo Technical Institute,2022,False,315.5,post
+Kampala Institutional and Infrastructure Development Project (KIIDP2),2018,False,0.5,pre
+Kampala Northern Bypass Project Phase 2,2019,True,0.5,pre
+Kampala-Namanve-Mukono Railway Line Refurbishment (26.8km),2024,False,0.5,post
+Kamuli Faecal Sludge Management Facility,2018,False,92.5,pre
+Kanginima Seed Secondary School,2019,False,186.1,pre
+Kapchorwa District Administration Block,2018,False,231.4,pre
+Kapchorwa-Suam Road Project,2025,True,245.2,post
+Karera Technical Institute,2022,False,273.5,post
+Karuma Interconnection Transmission Lines,2019,False,216.7,pre
+Karuma-Kawanda Transmission Line,2019,False,174.8,pre
+Karuma-Lira Transmission Line,2019,False,218.9,pre
+Karuma-Olwiyo Transmission Line,2019,False,237.3,pre
+Kasenyi-Lyato Road,2023,True,99.7,post
+"Katete Seed Secondary School (unnamed, inferred)",2019,False,235.0,pre
+"Katikamu Seed Secondary School (unnamed, inferred)",2019,False,60.7,pre
+Katozi Water Project,2022,False,,post
+Katuugo Health Centre II,2019,False,182.2,pre
+Kawolo Hospital,2018,False,40.7,pre
+Kayunga General Hospital,2018,False,81.6,pre
+Kayunga-Nabuganyi Road,2025,True,76.2,post
+Kebisoni Seed Secondary School,2019,False,314.5,pre
+Kibale-Kasekulo-Ttubi Road,2019,True,259.5,pre
+Kigarama Seed School,2019,False,167.5,pre
+Kigumba-Masindi-Hoima-Kabwoya Road (RSSP-4),2022,True,178.2,post
+Kihanga Seed School,2019,False,337.5,pre
+Kikondo-Kawule-Busowe-Abonera/Kabuwoko Road,2019,True,50.3,pre
+Kikoza-Kigoloba-Naluvule Road,2018,True,,pre
+Kindra-Lokajo Road,2019,True,402.0,pre
+Kira Municipal Council Administration Building Phase II,2018,False,11.6,pre
+Kira-Matugga Road Project,2024,True,13.1,post
+"Kira-Mukono Roads Lot 2 (Anthony-Kame, Kame Annex, Albert Cook-Cathedral Rise, Kame-Nabuti-Katosi)",2025,True,19.2,post
+"Kira-Mukono Roads Lot 3 (Nasuuti-Nakabago-Ntawo, Bajjo-Seeta, Serado Link, Kigunga Link)",2025,True,19.2,post
+Kisaigi Bridge,2019,False,160.6,pre
+Kitgum Technical Institute,2022,False,362.2,post
+Kiwogoloma-Kitukutwe-Kijabijjo Road,2023,True,,post
+Kiyindi Fish Handling Facility,2018,False,2.3,pre
+Kiziba Health Centre II-III Upgrade,2019,False,133.3,pre
+Kole-Gulu-Nebbi-Arua Transmission Line,2023,False,263.5,post
+Kotido District Council Hall,2018,False,339.1,pre
+Kurunga-Tokuru Road,2018,True,365.5,pre
+Kyayi Seed School,2019,False,129.4,pre
+Kyoho Bridge,2019,False,270.8,pre
+Labworoyeng-Pawena-Laliya-Pawic-Lagot Anyara-Beyogoya Community Access Road,2025,True,336.7,post
+Lake Katwe Technical Institute,2022,False,304.1,post
+Lapu Health Centre II,2019,False,,pre
+Laroo-Pageya Road,2018,True,268.4,pre
+Lira Regional Referral Hospital,2018,False,228.2,pre
+Loborom HC III Solar-Powered Water System,2018,False,342.1,pre
+Lopei Bridge,2019,False,317.0,pre
+Low Cost Sealing of Selected District Roads Lot 6 (Kamuli),2019,True,92.5,pre
+Lubigi Primary Channel,2019,False,7.2,pre
+Lugore HC II OPD Renovation/Expansion,2018,False,275.8,pre
+Lukole Market,2023,False,292.4,post
+Lulyango Primary School Works,2018,False,279.8,pre
+Lusenke Ranch,2018,False,49.6,pre
+Luuku-Kalangala-Mulabana Road,2019,True,,pre
+Luwero Fruit Factory,2018,False,137.4,pre
+Luwero Health Centre IV Eye Clinic,2018,False,137.4,pre
+Lwemikomago Health Centre II,2019,False,139.9,pre
+"MTAC Centre, Mbale",2025,False,194.7,post
+"Makerere University Agricultural Research Institute Kabanyolo (MUARIK, inferred)",2023,False,17.6,post
+Malaba One Stop Border Post,2021,False,190.5,post
+Mamba Health Centre II-III Upgrade,2019,False,84.6,pre
+Masindi and Kigumba Town Roads,2022,True,177.2,post
+Masindi-Biiso-Kabale-Kiziranfumbi-Hohwa-Nyairongo-Butole Road,2025,True,177.6,post
+Mavugera Primary School Classrooms,2018,False,43.3,pre
+Mazuri Ranch,2018,False,,pre
+Mbale Regional Referral Hospital,2018,False,194.7,pre
+Mbale Satellite Centre Construction,2025,False,194.7,post
+Mbale-Tororo Transmission Line,2023,False,184.9,post
+Mbarara Regional Referral Hospital,2018,False,237.6,pre
+Mirama-Kabale Transmission Line,2023,False,246.8,post
+Mityana Substation,2023,False,58.3,post
+Molo Sub-county Administration Block,2019,False,186.4,pre
+Moroto Bus Terminal,2019,False,343.4,pre
+Moroto Valley Dam,2023,False,343.4,post
+Moroto-Lokitanyala Road,2025,True,343.4,post
+Mpoma Perimeter Wall,2025,False,22.4,post
+Mpondwe Bridge,2019,False,314.1,pre
+Mpungu Health Centre II-III Upgrade,2019,False,351.9,pre
+MuJunza Health Centre,2019,False,159.5,pre
+Mubende Regional Referral Hospital,2018,False,132.2,pre
+Mubende Substation,2023,False,132.2,post
+Mulago Hospital and Kampala City Capacity Project (MKCCAP),2018,False,3.1,pre
+Mulago Specialized Women & Neonatal Hospital (MSWNH),2025,False,3.1,post
+Mutundwe-Entebbe 132kV Double Circuit Transmission Line,2025,False,18.1,post
+Nakamiro Secondary Channel,2019,False,,pre
+Nakaseke Hospital,2018,False,88.8,pre
+Nakaseke Seed Secondary School,2019,False,88.8,pre
+Nakaseta Primary School Pit Latrine,2018,False,47.9,pre
+Nakitokolo Health Centre II,2019,False,204.5,pre
+Nakitokolo Seed Secondary School,2019,False,204.5,pre
+Nakyesa Public Latrine,2018,False,75.9,pre
+Namagera Town Water Supply System,2018,False,30.7,pre
+Namayemba Primary School Classroom Block,2023,False,137.3,post
+Namisindwa District Administration Block,2018,False,209.6,pre
+Namungoona-Nansana-Wakiso-Kakiri Road,2025,True,14.5,post
+Namwiwa Town Water Supply System,2018,False,137.0,pre
+Napak District Council Chambers,2018,False,291.5,pre
+Nasuleta Health Centre II,2018,False,173.6,pre
+Natete Police Station,2018,False,6.0,pre
+National High Altitude Training Centre (Kiprotich),2018,False,240.2,pre
+National Metrology Laboratory at UNBS,2022,False,,post
+National Petroleum Data Repository Infrastructure Project,2024,False,,post
+National Science & Technology Entrepreneurship Innovation Centre,2023,False,12.0,post
+Ngomanene Health Centre II-III Upgrade,2019,False,65.9,pre
+Nshaara Ranch,2018,False,,pre
+Nsongi Bridge,2019,False,,pre
+Ntungamo-Kabale-Katuna Road,2025,True,317.2,post
+Nyakasharara Seed School,2019,False,295.0,pre
+Nyakayojo Daily Matooke Market,2025,False,245.4,post
+Nyakinama Seed School,2019,False,369.9,pre
+Nyamitanga Technical Institute,2022,False,240.0,post
+Nyamweru Seed School,2019,False,333.1,pre
+Nyendo Health Centre II-III Upgrade,2019,False,115.8,pre
+Nyendo Market,2018,False,115.8,pre
+"Office Block, Plot 92a Butabika Road/Plot 2-4 Bukasa Lane, Butabika",2024,False,8.4,post
+Ogom Seed Secondary School,2019,False,294.6,pre
+Ogonyo-Odum Swamp Crossing,2019,False,194.9,pre
+Olwiyo-Pakwach Road,2025,True,264.9,post
+Opit Market,2023,False,255.5,post
+Ora Technical Institute,2022,False,316.5,post
+Oru River Bridge (15m single span),2023,False,,post
+Otwago Non-Formal Education Learning Centre Classroom Block,2018,False,272.9,pre
+Otwee Health Centre II,2019,False,221.6,pre
+PPDA-URF Office Building,2019,False,0.5,pre
+"Police Hospital, Nsambya",2024,False,2.6,post
+Rugaaga Health Centre IV Theatre/Staff Houses,2023,False,314.7,post
+Ruzairwe Bridge,2019,False,,pre
+Rwamucucu Seed School,2019,False,327.5,pre
+Rwebisengo-Rwangara Road,2019,True,259.4,pre
+Rwensenene Bridge,2019,False,243.1,pre
+Ryeru Seed Secondary School,2019,False,283.6,pre
+Samson Kalibala Kamya Memorial Seed Secondary School,2019,False,,pre
+Selected Town Roads in Pallisa and Kumi,2025,True,177.6,post
+Semuto Health Centre IV,2018,False,44.1,pre
+Shimoni Road Upgrade (3.178km),2023,True,1.2,post
+Sipi Irrigation Scheme,2024,False,230.5,post
+Siriba-Kalwala-Kiryampungula Road,2023,True,75.7,post
+Sleeper Making Factory at Kawolo Station,2022,False,40.7,post
+Soroti-Katakwi-Akisim Road,2019,True,187.0,pre
+Ssezibwa (Bulandi-Gyira) Swamp Crossing,2023,False,,post
+Tete Ogolo-Liri Road,2023,True,362.8,post
+Todora HC II Works,2018,False,252.5,pre
+Tonya Primary School Classroom Blocks,2023,False,220.6,post
+Tororo Warehouses (Uganda Property Holdings),2024,False,175.7,post
+Tororo-Opuyo-Lira Transmission Line,2023,False,171.9,post
+Tumboboi Maternity Ward,2018,False,243.0,pre
+UHI 250-Bed Heart Hospital,2023,False,3.1,post
+UTC Bushenyi (Lot 1),2022,False,282.5,post
+UTC Bushenyi (Lot 2),2022,False,282.5,post
+Uganda Blood Transfusion Service HQ (Nakasero),2022,False,1.2,post
+"Uganda Business Facilitation Centre (UBFC, inferred)",2025,False,,post
+Uganda Cancer Institute (UCI) Building,2022,False,3.1,post
+Uganda Oil Refinery Project,2022,False,214.0,post
+Uganda Revenue Authority Headquarters Building Project,2024,False,0.5,post
+Wabigalo-Busubizi Road,2018,True,57.8,pre
+Wadelai Irrigation Scheme,2024,False,298.8,post
+Waiga Bridge,2019,False,189.9,pre
+Wakiso Health Centre IV,2018,False,15.5,pre
+Water-Borne Toilet at UNMC,2019,False,,pre
+Were-Asumuk Road,2019,True,165.7,pre
