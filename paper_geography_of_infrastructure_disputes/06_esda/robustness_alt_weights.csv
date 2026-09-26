@@ -1,0 +1,10 @@
+dv,weights,morans_I,p_sim,z_sim
+n_projects,Queen,0.1638,0.003,3.182
+n_projects,KNN-5,0.1177,0.008,2.512
+n_projects,KNN-8,0.1411,0.002,3.783
+land_and_right_of_way,Queen,0.2851,0.001,5.452
+land_and_right_of_way,KNN-5,0.2337,0.001,5.222
+land_and_right_of_way,KNN-8,0.1913,0.001,5.239
+delay_time_overrun,Queen,0.1347,0.006,2.734
+delay_time_overrun,KNN-5,0.0628,0.096,1.309
+delay_time_overrun,KNN-8,0.0897,0.011,2.496
