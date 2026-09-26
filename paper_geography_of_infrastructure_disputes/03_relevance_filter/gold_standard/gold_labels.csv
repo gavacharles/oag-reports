@@ -1,0 +1,363 @@
+sample_id,gold_labels,confidence,notes
+S0001,,high,TOC/appendix header dump; no substantive finding
+S0002,land_and_right_of_way,medium,compensation claims for land affected by Isimba HPP construction
+S0003,cost_overrun,low,embedded in TOC noise; 'payments made over and above awarded contract price'
+S0004,procurement_irregularities|delay_time_overrun,high,procurement delays caused delayed commencement of works
+S0005,delay_time_overrun,high,actual start 2 months later than planned
+S0006,,medium,"domestic arrears at a school, not clearly contractor/infra payment"
+S0007,contract_management,low,"embedded in TOC dump; 'defects regarding slitting, drilling, installation of bore holes'"
+S0008,delay_time_overrun,high,delayed completion of irrigation/water/post-harvest infrastructure projects
+S0009,land_and_right_of_way,high,"sites handed over before land acquisition completed, contrary to Land Acquisition Act"
+S0010,delay_time_overrun,high,ICT install blocked by delayed completion of building
+S0011,,medium,"appendix financial table on state enterprise debt; generic oversight recommendation, not infra-specific"
+S0012,,high,TOC/appendix header dump
+S0013,,high,"appendix financial table, generic oversight recommendation"
+S0014,delay_time_overrun|contract_management,high,unfinished road works + defects to be rectified
+S0015,delay_time_overrun,medium,fragment: incomplete works contract for additional works
+S0016,procurement_irregularities,medium,embedded in TOC dump: contract awards not meeting evaluation criteria; no evidence bidders invited
+S0017,,medium,forward-looking recommendations on water facility sustainability/oversight; no specific finding
+S0018,governance_and_controls,high,explicit call for strengthened oversight and improved accountability measures
+S0019,delay_time_overrun|procurement_irregularities,high,delays implementing project; procurement still under evaluation
+S0020,cost_overrun,high,excess expenditure of UGX 2 million stated explicitly
+S0021,land_and_right_of_way|claims_and_disputes,medium,"contingent liability for way-leave compensation, may crystallize into cash outflow"
+S0022,delayed_payments,low,ministry arrears; not explicitly tied to a construction contractor
+S0023,contract_management,medium,irregular arrangement: consultant supervision/salaries routed through contractor
+S0024,delay_time_overrun|land_and_right_of_way|procurement_irregularities,high,"delays from right-of-way acquisition, procurement processes, and drawing approvals"
+S0025,procurement_irregularities,medium,recommendation to harmonize guidelines with procurement laws implies a procurement process gap
+S0026,,high,TOC/appendix header dump
+S0027,,medium,"stakeholder-engagement strategy table; generic governance language, no specific finding"
+S0028,delayed_payments|delay_time_overrun,high,delayed payment to contractors affecting cash flow and timely completion
+S0029,delay_time_overrun,high,field inspection revealed incomplete works on a specific road
+S0030,land_and_right_of_way|delay_time_overrun|procurement_irregularities,medium,"compound sentence: land/PAP compensation issues, delays, and procurement supply delays"
+S0031,land_and_right_of_way|claims_and_disputes,high,PAP compensation outstanding due to unresolved court cases and family disputes
+S0032,cost_overrun|delayed_payments,medium,header text 'significant cost escalation and payment shortfall' on Busega-Mpigi Expressway
+S0033,delayed_payments|claims_and_disputes|land_and_right_of_way,high,delay to pay contractors; impending legal suits on disputed compensation claims
+S0034,procurement_irregularities,medium,"appendix table explicitly lists split procurement, irregular initiation, delayed procurement processes"
+S0035,delay_time_overrun|contract_management,high,behind schedule and contract lacked required accessibility features
+S0036,delay_time_overrun,high,delays in completion of civil works by six months
+S0037,,high,TOC/appendix header dump
+S0038,claims_and_disputes|contract_management,high,did not claim liquidated damages despite contractor's failure to deliver the contract
+S0039,land_and_right_of_way,high,pending land acquisition issues on road sections
+S0040,,medium,hospital domestic arrears; not clearly tied to a construction contractor
+S0041,,high,"generic school governance regulation citation, no finding"
+S0042,procurement_irregularities,high,IPPs secured sites without any competitive procurement process
+S0043,claims_and_disputes|land_and_right_of_way,high,ongoing court cases/legal suits by PAPs over sub-surface rock compensation
+S0044,delay_time_overrun|land_and_right_of_way|contract_management,high,"works not commenced, ROW challenges, and EHS non-compliance by contractor"
+S0045,cost_overrun|contract_management,high,explicit cost escalation from 547.5Bn to 1.35Tn due to inadequate detailed designs at contracting
+S0046,procurement_irregularities,medium,recommendation implies turnover requirement was not aligned with procurement guidelines
+S0047,,high,"purely descriptive: contract awarded, price, supervisor named; no problem stated"
+S0048,contract_management,high,outstanding snags/defects remain after Defect Liability Period ended
+S0049,claims_and_disputes|delayed_payments,high,liquidated damages recommendation; delays of 95-628 days paying contractor IPCs
+S0050,delayed_payments|claims_and_disputes,medium,payables accumulation (arrears) with potential/forward-looking litigation risk
+S0051,,high,"generic report-structure sentence naming pillars, no finding"
+S0052,delay_time_overrun,high,some construction/renovation projects behind schedule
+S0053,land_and_right_of_way|claims_and_disputes,high,"encumbrances from land disputes, court injunctions and encroachment"
+S0054,,high,TOC/appendix header dump
+S0055,,high,"TOC/appendix header dump; arrears are pension/salary, not contractor-related"
+S0056,procurement_irregularities,high,micro-procurement of works done without obtaining required three quotations
+S0057,contract_management,high,physical defects at Isimba HPP unresolved beyond Defect Liability Period
+S0058,delayed_payments|claims_and_disputes,medium,"same pattern as S0050: payables accumulation, potential litigation risk"
+S0059,procurement_irregularities,medium,RAP consultancy procured without required professional indemnity
+S0060,contract_management,medium,"embedded in TOC dump: 'payment for shoddy works', 'lack of contract management files'"
+S0061,procurement_irregularities,low,"delayed procurement of textbooks; not construction infra, possible relevance-filter edge case"
+S0062,,high,"generic list of development-plan pillars, no finding"
+S0063,contract_management,medium,design/construction-supervision consultancy contract expired in 2020 and never renewed
+S0064,contract_management|delayed_payments|delay_time_overrun|claims_and_disputes,high,"scope deviation, delayed payment, timeliness advice with liquidated-damages remedy, and quality-control checks all in one compound finding"
+S0065,land_and_right_of_way,medium,"extensive encroachment on water bodies, incl. by construction, but not a specific project's ROW/compensation dispute"
+S0066,governance_and_controls,high,"weak controls safeguarding government vehicle assets, unrecorded in fixed asset register"
+S0067,,high,"generic accounting-note reference, no finding"
+S0068,delay_time_overrun|contract_management,high,incomplete works and poorly maintained road sections found on inspection
+S0069,,high,TOC/appendix header dump
+S0070,contract_management,high,poor workmanship in hospital mortuary renovation
+S0071,contract_management,high,poor workmanship on a specific road stretch
+S0072,,medium,funding shortfall covering payroll/procurement/upgrades; no specific irregularity asserted
+S0073,,high,TOC/appendix header dump
+S0074,,medium,"understaffing and general arrears at a hospital, not contractor payment"
+S0075,procurement_irregularities,medium,"management's defense of emergency (likely non-competitive) mask procurement during COVID, implying an audit query on the process"
+S0076,,low,explanatory note on committed funds pending processes incl. procurement/RAP; no specific irregularity stated
+S0077,,high,"TOC/appendix header dump; disbursement delay is to youth groups, not contractors"
+S0078,contract_management,medium,general statement that unrectified defects shorten infrastructure service life
+S0079,,high,"bare project-title fragment, no finding"
+S0080,,high,TOC/appendix header dump
+S0081,contract_management,high,shoddy construction works at oxygen plant/culverts
+S0082,delayed_payments|land_and_right_of_way,medium,outstanding contractor payments recommendation; RAMP/resettlement plan recommendation for GRID projects
+S0083,,high,TOC/appendix header dump
+S0084,delay_time_overrun,high,"delayed completion of 22 roads, contract value stated"
+S0085,delay_time_overrun|contract_management,high,"5-month delay, incomplete works despite full payment of contract funds"
+S0086,procurement_irregularities|contract_management,high,weaknesses in procurement and contract implementation affecting water/sanitation service delivery
+S0087,procurement_irregularities,high,failed to reserve procurements for registered associations as required
+S0088,governance_and_controls|land_and_right_of_way,medium,embedded in TOC dump: inadequate supervision by district officials; encroachment on council land at health centre
+S0089,procurement_irregularities|delayed_payments,medium,delayed procurement of contractors and delayed release of funds
+S0090,,high,TOC/appendix header dump
+S0091,delay_time_overrun|land_and_right_of_way,high,delayed mobilization; slow ROW/PAP compensation; COVID restrictions
+S0092,procurement_irregularities,medium,embedded in TOC dump: failure to report fraudulent company to PPDA; procurement outside plan
+S0093,governance_and_controls,medium,arrears settled beyond approved budget without required PSST approval - control/approval breach
+S0094,land_and_right_of_way|delay_time_overrun,high,delayed land compensation for ROW affecting project implementation
+S0095,delay_time_overrun|cost_overrun,high,forex losses (added cost) arising from delayed completion of civil works
+S0096,,medium,unrecovered tax refund on invoice paid to a construction company; a financial-management issue outside the 8 categories
+S0097,delay_time_overrun,high,stadium construction unimplemented due to delayed project code creation and delayed EIA completion
+S0098,procurement_irregularities|delay_time_overrun|claims_and_disputes,high,"procurement plan/budget misalignment and delays, contract-implementation delays, failure to recover liquidated damages"
+S0099,delay_time_overrun|procurement_irregularities,high,delayed completion by contractors and procurement-process bottlenecks
+S0100,,medium,"boilerplate definitional text on nugatory/wasteful expenditure, not a project-specific finding"
+S0101,,high,TOC/appendix header dump
+S0102,delay_time_overrun|procurement_irregularities,high,"procurement initiated May 2018 still not concluded by Nov 2023, delaying project commencement"
+S0103,delay_time_overrun|procurement_irregularities,high,only 18% of approved investments completed; majority still stuck in procurement
+S0104,procurement_irregularities,medium,embedded in TOC dump: unsigned evaluation reports; missing bid validity expiry date
+S0105,delay_time_overrun|contract_management,medium,embedded in TOC dump: stalled administration block construction; unrecorded/unresolved defects on maternity ward
+S0106,delayed_payments|delay_time_overrun,high,delayed payments/fund release caused works to stall and contractor to abandon sites
+S0107,,medium,"programme warrant-vs-budget variance table; underfunding, not a cost overrun, and not project-specific"
+S0108,governance_and_controls,medium,"procurement FUNCTION under-resourced (capacity building, monitoring); institutional capacity gap rather than a specific irregularity"
+S0109,land_and_right_of_way|delayed_payments,high,RAP/way-leave compensation funds undisbursed to PAPs despite project completion a year earlier
+S0110,procurement_irregularities,low,embedded in TOC dump of hospital financial irregularities; 'failure to provide a Performance Security' is the one procurement-relevant item
+S0111,land_and_right_of_way|claims_and_disputes,high,"appendix table: widespread untitled/unsurveyed land, encroachments, disputes and encumbrances across entities"
+S0112,,high,"generic strategic-plan innovation text, no finding"
+S0113,land_and_right_of_way,high,encroachment on railway land reserves requiring repairs/compensation
+S0114,claims_and_disputes|contract_management|delayed_payments,high,"legal costs/receivable dispute with Multiplex, contractor non-compliance, nugatory expenditure from interest on delayed payments (Entebbe Airport-type case)"
+S0115,,high,"forensic-audit engagement registry table (cooperative compensation, unrelated to construction infra categories)"
+S0116,delay_time_overrun,high,construction/rehabilitation and equipment procurement activities not fully implemented by year-end
+S0117,,high,"OAG strategic-framework diagram text, no finding"
+S0118,,high,TOC/appendix header dump
+S0119,land_and_right_of_way|cost_overrun|delay_time_overrun,high,high ROW acquisition costs and unfavourable land law affecting project costs and completion period
+S0120,,high,TOC/appendix header dump
+S0121,land_and_right_of_way,medium,embedded in table: untitled land at Nalukolongo leading to encroachment of plots
+S0122,delay_time_overrun,medium,embedded in TOC dump: stalled construction of council chambers
+S0123,delay_time_overrun|claims_and_disputes,medium,generic recommendation implying delay problem and reliance on liquidated-damages remedy
+S0124,delay_time_overrun|claims_and_disputes,high,liquidated damages recommended due to a delay
+S0125,contract_management|delay_time_overrun,high,"improper drainage, expired contract with incomplete works, missing safety signage"
+S0126,delayed_payments,high,"unpaid retention fees on works, remained unpaid"
+S0127,delayed_payments|delay_time_overrun|procurement_irregularities,high,"delayed advance/IPC payments, expired/invalid performance guarantees, delayed works against schedule"
+S0128,delay_time_overrun|procurement_irregularities|land_and_right_of_way,high,delays attributed to procurement and land acquisition
+S0129,delay_time_overrun|contract_management,high,12-month works took 3 years (2-yr delay); no penalty/remedy provisions in agreement
+S0130,procurement_irregularities|land_and_right_of_way|delay_time_overrun|contract_management,high,"under-absorption from delayed procurement, prolonged land acquisition, contractor capacity limits, and mid-execution design changes"
+S0131,,high,TOC/appendix header dump
+S0132,delay_time_overrun|cost_overrun,high,delayed completion creates risk of supervision/construction cost escalation
+S0133,cost_overrun|procurement_irregularities|delay_time_overrun,high,excess expenditure from irregular contracting of unfinished works to a private contractor
+S0134,delay_time_overrun|land_and_right_of_way,high,energy-sector projects not completed within contract periods due to ROW challenges
+S0135,procurement_irregularities,medium,embedded in TOC dump: contract awarded to a company that failed the eligibility test
+S0136,land_and_right_of_way|delayed_payments,medium,delays in land acquisition and delayed release of funds affecting water schemes
+S0137,delay_time_overrun|procurement_irregularities,medium,design/bid-document preparation for Chancery construction not concluded within six months
+S0138,claims_and_disputes|land_and_right_of_way,medium,embedded in TOC dump: nugatory expenditure on fines/court awards/legal fees; lack of land titles for UPL land
+S0139,delayed_payments,medium,large arrears owed to the firm maintaining national backbone infrastructure
+S0140,claims_and_disputes|delayed_payments|cost_overrun|delay_time_overrun|land_and_right_of_way,high,"dense findings list: interest claims on late payments, delayed contract implementation, consultant cost escalation, land transfer/titling delays, outstanding PAP compensation"
+S0141,,low,fragment on a funding shortfall for supervision; no specific finding stated
+S0142,land_and_right_of_way|delay_time_overrun,high,advice to expedite RAP approval and land acquisition to unblock stalled project implementation
+S0143,,high,"generic UGIFT program description, no finding"
+S0144,delayed_payments,medium,KCCA domestic arrears increased 192%; not explicitly contractor-specific but a major infra-implementing body
+S0145,procurement_irregularities,high,unjustified direct procurements; irregular framework contract issuance for IT equipment
+S0146,,high,"generic stakeholder-expectations table, no finding"
+S0147,delayed_payments,high,delayed payment of IPCs; explicit 56-day contractual payment clause cited
+S0148,contract_management,high,"detailed list of construction defects (ramps, columns, floor tiling, roofing, structural steel)"
+S0149,delay_time_overrun|land_and_right_of_way|contract_management,high,"delayed commencement from ROW challenges, missing design reviews, and HSE non-compliance"
+S0150,delay_time_overrun,medium,several project components not implemented by time of audit
+S0151,contract_management,medium,general statement that uncorrected defects threaten building integrity
+S0152,contract_management|delay_time_overrun,high,"inspection findings: subprojects with defects, subprojects behind schedule, payment for uncommensurate environmental works"
+S0153,land_and_right_of_way|delay_time_overrun,medium,"resettlement construction and PAP compensation cited as 'affected activities', implying impact/delay"
+S0154,cost_overrun|contract_management,high,excess expenditures and poor road maintenance/quality findings
+S0155,delayed_payments,high,UGX798.97Bn in unpaid arrears for road and bridge construction projects
+S0156,delay_time_overrun|contract_management,high,recommendation to complete outstanding works and fix design/construction defects
+S0157,claims_and_disputes,high,ongoing litigation and arbitration claims despite project completion
+S0158,delay_time_overrun|claims_and_disputes,high,contingent liability from delayed site handover; garnishee order (legal enforcement)
+S0159,delay_time_overrun|contract_management|governance_and_controls,medium,incomplete/deteriorated works plus shortfall in required oversight-committee meetings
+S0160,delay_time_overrun|contract_management|delayed_payments,medium,"incomplete works, no materials testing, delayed health-centre upgrade, and late transfer of funds to LGs"
+S0161,contract_management|delay_time_overrun,medium,"UMEME non-compliance with connection-time service standards, delaying customer connections"
+S0162,procurement_irregularities|delay_time_overrun|contract_management,high,delayed procurement of contractors and delays in contractor's design review
+S0163,,high,"generic institutional capacity-building framework domains, no finding"
+S0164,land_and_right_of_way,high,private institutions and encroachment found on police land
+S0165,,high,"generic stakeholder-expectations table, no finding"
+S0166,delay_time_overrun,high,delays in completion of a specific market-road rehabilitation
+S0167,delay_time_overrun|cost_overrun|contract_management,medium,cost figure tied to delay in completing rectifications (implying defects) by contractor
+S0168,delayed_payments,high,explicit heading: delayed payments to contractors
+S0169,governance_and_controls,high,inadequate fund release and lack of budget monitoring/supervision cited as causes of implementation failure
+S0170,land_and_right_of_way,high,recommendation to survey/title land and secure it from encroachers
+S0171,,high,"purely descriptive: joint contract and funding arrangement, no problem stated"
+S0172,land_and_right_of_way|delay_time_overrun,high,"incomplete land titling, landowner reluctance, registration delays, unregistered wayleave easements"
+S0173,,high,"generic strategic-plan objectives list, no finding"
+S0174,delay_time_overrun|land_and_right_of_way|contract_management,high,advice to accelerate completion via land acquisition and defect rectification
+S0175,,high,TOC/appendix header dump
+S0176,procurement_irregularities|delay_time_overrun,medium,22-day procurement delay under UgIFT; works only at foundation level
+S0177,cost_overrun|delay_time_overrun|delayed_payments|claims_and_disputes,high,"funds depleted at only 40.86% physical progress, certified works unpaid, risk of delayed payments and legal claims"
+S0178,,high,"generic school-regulation governance statement, no construction-dispute content"
+S0179,delay_time_overrun|land_and_right_of_way,medium,embedded heading 'Delayed Completion of Projects' and 'Lack of Land titles for water Scheme'
+S0180,claims_and_disputes,medium,embedded TOC heading: high number of court cases and contingencies
+S0181,claims_and_disputes|delay_time_overrun|cost_overrun,high,court cases risk delaying dam construction and raising commitment fees
+S0182,governance_and_controls,medium,improvements noted in oversight of the construction sector following prior recommendations
+S0183,,high,TOC/appendix header dump
+S0184,delay_time_overrun,high,works stalled and contractor abandoned the site
+S0185,,high,TOC/appendix header dump
+S0186,land_and_right_of_way,high,heavy encroachment along a railway line reserve
+S0187,,high,"generic statement on government infrastructure investment, no finding"
+S0188,delay_time_overrun,high,"field inspections found project works behind schedule, delaying service delivery"
+S0189,,low,embedded TOC heading naming a PPDA compliance review; no irregularity finding stated
+S0190,procurement_irregularities|delay_time_overrun,high,delayed procurement of civil works for an irrigation scheme
+S0191,governance_and_controls,high,institute lacks an IT governance framework despite heavy IT infrastructure investment
+S0192,procurement_irregularities,high,"school lacks a procurement unit, contrary to procurement regulations"
+S0193,delayed_payments|claims_and_disputes|delay_time_overrun,high,delayed IPC payments exposing Ministry to interest claims and affecting timely delivery
+S0194,governance_and_controls,high,oversight committee missing required representatives per project governance framework
+S0195,,high,"generic government-programme listing table, no finding"
+S0196,delay_time_overrun,high,health centre works stalled; school construction had not commenced
+S0197,,high,"generic office support statement, no finding"
+S0198,procurement_irregularities|claims_and_disputes|contract_management,high,non-competitive direct procurement of sub-contractors from a terminated contractor who then sued the utility
+S0199,delay_time_overrun,high,construction works behind schedule by almost six months
+S0200,procurement_irregularities,medium,embedded in TOC dump: missing performance securities and missing LLG representative on evaluation committee
+S0201,delayed_payments|governance_and_controls,high,fund transfer to Town Council delayed 132/182 days; explicitly headed 'inadequacies in internal controls'
+S0202,governance_and_controls,high,no performance reports prepared; no steering committee established for oversight
+S0203,contract_management|delay_time_overrun,high,poor post-completion maintenance from lack of sustainability measures; works stalled due to unforeseen site conditions
+S0204,land_and_right_of_way,medium,embedded TOC heading: land encroachment; lack of land titles
+S0205,,high,"TOC/appendix header dump, no specific finding content"
+S0206,land_and_right_of_way|cost_overrun|claims_and_disputes|delay_time_overrun,high,cost incurred from failure to access land (delayed PAP compensation); contractors charged UNRA idle-time/time-related claims
+S0207,delay_time_overrun,high,staff-houses construction behind schedule
+S0208,,high,"recommendation on school-inspector capacity building, no construction-dispute content"
+S0209,land_and_right_of_way|delayed_payments|delay_time_overrun|contract_management,medium,"heading list: PAP compensation/land acquisition, delayed PAP payment, delayed civil works, unapproved design reviews"
+S0210,claims_and_disputes,medium,hospital at risk of litigation and fines (prospective dispute)
+S0211,delay_time_overrun|contract_management,high,one-year extension of time granted; defects liability period being managed
+S0212,procurement_irregularities|land_and_right_of_way,medium,recommendation implies procurement-method non-adherence specifically in land acquisitions
+S0213,cost_overrun|contract_management,high,explicit excess expenditure on a road; missing road signage as a quality/safety omission
+S0214,land_and_right_of_way,high,impediments to land acquisition for infrastructure projects need addressing
+S0215,governance_and_controls,medium,"embedded heading 'Governance Issues': unsigned board minutes, internal audit reports not considered by board"
+S0216,land_and_right_of_way|delay_time_overrun,high,school had no land title; works behind schedule at ring-beam level
+S0217,delayed_payments|land_and_right_of_way,high,delayed PAP compensation payments outstanding after project end
+S0218,,low,"unable to secure a JV partner for a planned EPC project; ambiguous, no explicit delay/procurement-irregularity/dispute stated"
+S0219,delay_time_overrun|claims_and_disputes|procurement_irregularities,medium,"embedded headings: incomplete/abandoned works, contingent liability, missing procurement records"
+S0220,,high,"'road' here refers to an election roadmap/plan, not physical infrastructure - relevance-filter false positive"
+S0221,delay_time_overrun,high,civil works and supervision contracts extend beyond the grant closing date
+S0222,land_and_right_of_way,high,"expired land leases, untransferred titles, unsigned MoUs, and encroachment on NWSC land"
+S0223,contract_management,high,"detailed list of physical defects (walkways, street lights, stone pitching, asphalt, drainage, guard rails)"
+S0224,,high,TOC/appendix header dump
+S0225,procurement_irregularities|contract_management,high,"embedded TOC dump with explicit multiple procurement irregularities (evaluation committee, contract award, BoQ arithmetic correction, contingencies)"
+S0226,delay_time_overrun,high,field inspections revealed incomplete works
+S0227,contract_management|governance_and_controls,medium,UMEME non-compliance to quality standards; absence of a methodology for verifying costs (control gap)
+S0228,claims_and_disputes|delay_time_overrun,high,37 legal suits against UETCL as a direct result of the delay
+S0229,claims_and_disputes|procurement_irregularities|delay_time_overrun,medium,"dense appendix list: liquidated damages/pending court cases, irregular advance-payment security and missing performance security, delayed delivery"
+S0230,contract_management,low,embedded TOC heading: irregularities in prior-year force-account works
+S0231,delay_time_overrun,high,only 11.6% of a 350-bed hospital completed after two-thirds of the project timeline had elapsed
+S0232,contract_management|governance_and_controls|procurement_irregularities,high,recommendation to strengthen contract-manager oversight and adherence to procurement implementation timelines
+S0233,delay_time_overrun,high,some ongoing construction projects behind schedule
+S0234,governance_and_controls,high,"unsigned board minutes, absent fraud policies, expired board terms, noncompliance with corporate governance principles"
+S0235,,high,"school-inspection frequency statistics, no construction-dispute content"
+S0236,delay_time_overrun,high,"28 of 44 LGs delayed HCII-to-III upgrade completion by 19 to 1,179 days"
+S0237,,medium,"generic appendix note on outstanding commitments, not tied to a specific driver"
+S0238,delay_time_overrun|contract_management,high,incomplete and shoddy works found at a health-centre upgrade
+S0239,land_and_right_of_way|claims_and_disputes,medium,resettlement grievances from PAPs on a road project lot
+S0240,,high,TOC/appendix header dump
+S0241,,high,"descriptive e-GP policy statement, no irregularity"
+S0242,delay_time_overrun|contract_management,medium,embedded TOC headings: delays in NUSAF sub-project implementation; incomplete/abandoned contractual obligations
+S0243,delayed_payments|cost_overrun,high,"IPC payments to contractors on 8 projects not made on time, incurring UGX1.82Bn interest charges"
+S0244,delay_time_overrun,high,health-centre upgrade works stalled; school construction funds unutilized
+S0245,,high,TOC/appendix header dump; contingent liabilities heading with no detail
+S0246,contract_management,high,explicit 'poor contract management' with listed physical defects on inspected roads
+S0247,land_and_right_of_way,high,"land acquisition only at 84%, posing community-related project risk"
+S0248,,high,TOC/appendix header dump
+S0249,delay_time_overrun,medium,embedded TOC heading: incomplete works on an administration building
+S0250,claims_and_disputes|delay_time_overrun,high,table of unclaimed liquidated damages tied to specific contract delay-days across ten institutions
+S0251,contract_management|procurement_irregularities,medium,missing signage/project-management records and no community-procurement records for a road inspection
+S0252,delay_time_overrun,high,seed-school completion delayed 24-842 days beyond initial date across 43 LGs
+S0253,,high,"generic pillars list, no finding"
+S0254,land_and_right_of_way|delay_time_overrun|contract_management,medium,ranch land encroachment; incomplete construction across several ranches; prior-year force-account irregularities
+S0255,claims_and_disputes|delayed_payments|cost_overrun,high,nugatory expenditure from court-case penalties and interest on delayed payments to contractors
+S0256,,high,"OAG internal strategic-plan performance table, no finding"
+S0257,,low,fragment referencing an unspecified prior cause affecting Parliamentary Chambers construction/vehicle procurement; insufficient standalone content
+S0258,cost_overrun|land_and_right_of_way,high,GoU counterpart funding exceeded approved amount due to increased land-acquisition and price-variation costs
+S0259,,high,"generic pillars list, no finding"
+S0260,land_and_right_of_way,medium,recommendations to prevent wetland (re-)encroachment near GCF project areas
+S0261,,medium,"financial-statement note on a receivables balance increase, no explicit dispute/delay content"
+S0262,,medium,"domestic arrears from unfunded tax/energy incentive; general financial management, not contractor-specific"
+S0263,cost_overrun|contract_management,high,addendum with cost escalation up to 663% on some items of a road project
+S0264,,high,"special/forensic-audit financial recovery appendix table across many entities, no specific driver content"
+S0265,,high,"generic secondary-education sector improvement statement, no finding"
+S0266,delay_time_overrun|claims_and_disputes|contract_management,high,contract-implementation delays and failure to enforce liquidated damages encouraging non-compliance
+S0267,delay_time_overrun|contract_management,medium,embedded TOC heading: delayed modification works on defective road equipment
+S0268,,high,"REA financial-shortfall/receivables appendix, no construction-driver content"
+S0269,delay_time_overrun|procurement_irregularities,high,delayed construction and delayed procurement process causing a 7-month schedule delay
+S0270,procurement_irregularities|contract_management|claims_and_disputes|cost_overrun,high,"dense findings list: irregular procurement of supervision team, unfollowed variation protocol, untested quality, unregistered as-built drawings, uncharged liquidated damages, overpayment from quantity discrepancies"
+S0271,land_and_right_of_way|delay_time_overrun,high,limited ROW access hindering timely completion of road works
+S0272,governance_and_controls|delay_time_overrun|contract_management,high,"recommendation to strengthen oversight, address delays, and replace non-performing contractors"
+S0273,governance_and_controls,high,"long list of board/governance-composition deficiencies across many entities, incl. Uganda Road Fund board misunderstandings"
+S0274,delayed_payments|cost_overrun,high,large outstanding payables to contractors at UNRA/MOWT generating interest charges
+S0275,land_and_right_of_way,medium,embedded TOC heading: encroachment on Apa river wetlands
+S0276,delay_time_overrun|governance_and_controls,medium,"stalled administration block, delayed project implementation, and absence of internal audit"
+S0277,contract_management|cost_overrun,medium,missing material test results and physical defects on USMID projects; recommendation to recover overpayments
+S0278,delay_time_overrun,high,delayed supply/installation works risking abandonment and delayed service delivery
+S0279,delay_time_overrun|contract_management,high,"delayed implementation, incomplete works on CARs, and poorly maintained road sections"
+S0280,claims_and_disputes|land_and_right_of_way,high,"table of legal cases/contingent liabilities across entities incl. disputed compensation offers, tax dispute, potential legal claims"
+S0281,contract_management,high,long list of road/construction physical defects and poor workmanship
+S0282,claims_and_disputes,high,contractor sued the Ministry for breach of contract
+S0283,delay_time_overrun|delayed_payments|cost_overrun,high,"renovation stalled due to delayed payments, incurring extra monthly rent/security/remobilization costs"
+S0284,delayed_payments|claims_and_disputes,high,outstanding payables for construction works may attract litigation
+S0285,delay_time_overrun|procurement_irregularities,high,"works must be re-tendered, causing extra delays"
+S0286,procurement_irregularities,medium,embedded TOC heading: missing procurement records
+S0287,contract_management|governance_and_controls,high,"Entebbe Airport project: agreement-implementation inconsistencies, missing consultant verification, corporate-governance/fraud-policy failures"
+S0288,land_and_right_of_way|delay_time_overrun,high,delays in land acquisition and construction hampering transmission-line project progress
+S0289,procurement_irregularities,medium,lack of engineer's estimates that should have guided the procurement process
+S0290,,high,Electoral Commission 'road map' for elections - relevance-filter false positive on the word 'road'
+S0291,delayed_payments,high,"review of outstanding arrears owed to contractors on road projects, explicit heading"
+S0292,,high,"purely descriptive list of owned properties/land, no problem stated"
+S0293,procurement_irregularities|delay_time_overrun,high,procurement delays observed for a specific construction-services contract
+S0294,,high,"revenue-collection performance statement, no driver content"
+S0295,procurement_irregularities|land_and_right_of_way|delay_time_overrun,high,"deadline extended 4 years due to delayed procurement, prolonged ROW acquisition, and slow contractor execution"
+S0296,,high,"positive finding: procurement compliance with PPDA rules has improved, not an irregularity"
+S0297,land_and_right_of_way,high,new structures found built in cleared sections of an expressway's right of way
+S0298,delayed_payments,high,"explicit heading: delayed payments of contractor IPCs, 5-406 days, on named rail projects"
+S0299,delay_time_overrun|claims_and_disputes|procurement_irregularities,medium,"delayed completion denying timely use, failure to charge liquidated damages, and unrecovered advance-payment amounts across a subproject table"
+S0300,delayed_payments|claims_and_disputes,medium,same recurring pattern: payables accumulation with potential/forward-looking litigation risk
+S0301,,high,"no reportable issues / classified-expenditure note, no relevant driver"
+S0302,contract_management,medium,embedded TOC heading: unapproved variation
+S0303,governance_and_controls|delay_time_overrun|contract_management,high,missed mandatory steering-committee meeting flagged as major internal-control weakness causing delays and poor-quality works
+S0304,cost_overrun,high,"explicit stated budget overrun of USD16,770 on a training activity"
+S0305,contract_management|cost_overrun,medium,"defective/rotten poles needing replacement shortly after commissioning, raising operating costs"
+S0306,claims_and_disputes|delayed_payments|contract_management,high,"legal suit/garnishee claim over encashed performance guarantee, withheld retention monies and unpaid invoices"
+S0307,contract_management,high,only one clerk of works supervising a large project - inadequate supervision
+S0308,contract_management,high,supervision teams failed to test materials before incorporation on 11 of 15 contracts
+S0309,,high,TOC/appendix header dump
+S0310,contract_management|claims_and_disputes|procurement_irregularities,high,failure to maintain valid advance-payment/performance guarantees constitutes a fundamental breach of contract
+S0311,land_and_right_of_way|delay_time_overrun|cost_overrun|claims_and_disputes,high,disputed compensation rates and rock-deposit compensation demands delaying and raising costs of electricity projects
+S0312,contract_management,high,"uncorrected defects/omissions could compromise infrastructure durability, safety, functionality"
+S0313,contract_management,medium,embedded TOC heading: repeated 'payment for work not done' findings and fund diversion
+S0314,land_and_right_of_way|procurement_irregularities|delay_time_overrun|contract_management|cost_overrun,high,"commitment fees from ROW/land-acquisition delays, delayed procurements, poor project management, and project unreadiness"
+S0315,governance_and_controls,high,regulator lacks consolidated oversight of supporting infrastructure managed by other entities
+S0316,claims_and_disputes|governance_and_controls,high,undisclosed ongoing court cases in a hospital's financial statements
+S0317,procurement_irregularities,medium,"network underperformance attributed partly to procurement bottlenecks, among other factors"
+S0318,contract_management,high,"table of specific physical defects (culverts, gabions, honeycombing) across bridge/road projects"
+S0319,land_and_right_of_way|delayed_payments|cost_overrun,high,inadequate land-acquisition budgeting leading to interest costs from delayed payments and arrears accumulation
+S0320,delayed_payments|delay_time_overrun|contract_management,high,delayed arrears settlement causes suspension of road works and deterioration of completed works
+S0321,procurement_irregularities|contract_management,medium,no independent review of a feasibility study pre-financed by the EPC contractor itself - conflict-of-interest/procurement concern
+S0322,delay_time_overrun,high,"of 14 projects, 7 delayed, 1 lagging in extended period, 1 suspended"
+S0323,land_and_right_of_way|claims_and_disputes,high,"land titled to KCCA not the Hospital, risking encroachment and disputes"
+S0324,procurement_irregularities,high,"unfair bid evaluation comparing different scope/quantities, contrary to PPDA Act s.43"
+S0325,procurement_irregularities|delay_time_overrun,high,design works delayed by unharmonized PPDA/KfW procurement requirements
+S0326,contract_management|governance_and_controls,medium,recommendation implying supervising consultants were not engaged before works commenced
+S0327,contract_management|governance_and_controls|procurement_irregularities,high,internal-control inadequacies; contractors did not submit contractually required performance guarantees
+S0328,,medium,"about an accreditation body's process effectiveness (staffing/lab compliance), not a construction contract/dispute finding"
+S0329,delayed_payments|delay_time_overrun|claims_and_disputes,high,delayed IPC payments cause work delays and may trigger contractor interest claims
+S0330,delayed_payments,high,UGX500.347Bn in outstanding arrears for completed road works
+S0331,,medium,"descriptive statement of a procurement-guidance rule (clustering by LGs), not itself a finding"
+S0332,delay_time_overrun|procurement_irregularities|contract_management,medium,"embedded TOC headings: delayed road works, procurement irregularities on borehole rehabilitation, lack of signed contracts"
+S0333,,high,TOC/appendix header dump
+S0334,contract_management|delay_time_overrun,medium,"facility not formally handed over, raising supervision concerns"
+S0335,contract_management,high,materials-testing failures risking substandard-quality works across listed subprojects
+S0336,,medium,"financial-statement note on trade debtors owed to the company, no clear driver finding"
+S0337,governance_and_controls,high,"control lapses and delayed accountability in managing advances, explicit"
+S0338,claims_and_disputes|delay_time_overrun,high,liquidated damages from delays were not charged to contractors as required by contract
+S0339,procurement_irregularities|land_and_right_of_way,high,"embedded TOC dump: irregular contract award, direct procurements, land acquisition without valuer input, missing procurement files"
+S0340,delay_time_overrun,high,"staff housing construction delayed, still at wall-plate stage"
+S0341,procurement_irregularities,medium,"embedded TOC dump: VAT contract awarded to non-VAT-registered contractor, outdated procurement register"
+S0342,,medium,"hospital domestic arrears, generic and not contractor-specific"
+S0343,land_and_right_of_way,high,only 75.38% of planned land acquired for the project
+S0344,procurement_irregularities|delay_time_overrun|contract_management,high,"contracts awarded in lots exceeding contractor capacity, delaying contract works"
+S0345,delay_time_overrun,medium,petroleum-data infrastructure project only 37% complete due to underfunding
+S0346,land_and_right_of_way|delay_time_overrun,high,"over six years on, resettlement houses for 119 displaced PAPs still not built"
+S0347,delay_time_overrun|claims_and_disputes,high,table of unjustified extensions of time and forfeited liquidated damages across five LGs
+S0348,delay_time_overrun,high,ESMP works affected by delayed completion of subprojects
+S0349,delay_time_overrun|contract_management,high,delayed completion attributed to weak contract supervision and limited contractor capacity
+S0350,delay_time_overrun|cost_overrun,high,"delayed execution added USD380,000 in costs from extending the supervising consultant's contract"
+S0351,contract_management,high,recommendation to address defects/omissions and ensure timely maintenance
+S0352,delay_time_overrun,medium,"EPC contractor procurement process still ongoing many months later, implying a prolonged/delayed process"
+S0353,governance_and_controls,high,"SGR board terms expired and not renewed, contrary to the project's governance manual"
+S0354,delay_time_overrun|contract_management,high,"34 of 61 road projects behind planned progress, risking delayed completion and deterioration"
+S0355,cost_overrun|procurement_irregularities,medium,funds originally earmarked for x-ray procurement diverted to keep other works going
+S0356,,low,embedded TOC heading 'Court cases' with no elaboration
+S0357,,high,TOC/appendix header dump
+S0358,governance_and_controls,low,bare generic recommendation to strengthen monitoring and supervision
+S0359,cost_overrun|procurement_irregularities,high,contract awarded above approved budget with no approved supplementary budget
+S0360,land_and_right_of_way|procurement_irregularities,medium,embedded findings: encroachment on stadium land; irregularities in outsourcing
+S0361,delayed_payments|delay_time_overrun|procurement_irregularities|land_and_right_of_way,high,"under-absorption from delayed fund release, slow contractor works, delayed procurement, and land issues"
+S0362,cost_overrun|contract_management,high,excess expenditure and poor road maintenance/quality findings
