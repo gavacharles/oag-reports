@@ -172,11 +172,13 @@ p(
     "Cooperation Council contract litigation, or from UK arbitration awards, encodes the institutional "
     "assumptions of those jurisdictions – functioning courts, published case law, standard-form contracts with "
     "settled interpretation – that do not hold in a market where formal arbitration is rare and land is held "
-    "under four constitutionally distinct tenure regimes. A parallel and companion paper by the present authors "
-    "(Gavamukulya & Aigbavboa, in preparation) applies text mining to this same OAG corpus to derive and "
-    "validate the driver taxonomy used here; that paper's classifier and validation statistics are the source "
-    "of the project-level driver labels this analysis builds on, and are only summarised, not re-derived, in "
-    "Section 3 below."
+    "under four constitutionally distinct tenure regimes. Section 3.1 describes how the present paper adapts "
+    "this literature's five conventional categories – procurement irregularity, delayed payments, contract "
+    "management, land/right-of-way and governance/oversight – and adds two categories the international "
+    "literature does not carry as distinct classes but that recur throughout Uganda's audit narrative: "
+    "delay/time overrun as a construction-schedule outcome (distinct from delayed payments, a financial "
+    "outcome the literature already separates out) and claims and disputes as a broader category than the "
+    "narrow contingent-liability language a first pass at the corpus initially used."
 )
 h2("2.2 Spatial analysis in construction management")
 p(
@@ -238,15 +240,31 @@ p(
     "sentences for the cost-overrun category despite the term appearing routinely once the cap was removed. "
     "Document front matter (tables of contents, glossaries, table/figure captions) was stripped before "
     "sentence splitting after a 12.8% contamination rate was measured and verified by spot-check in the "
-    "original, capped corpus. The resulting sentence corpus was screened for infrastructure relevance and "
-    "classified into eight dispute-driver categories – delay/time overrun, cost overrun, claims and disputes, "
-    "land/right-of-way, contract management, delayed payments, governance and oversight, and procurement "
-    "irregularity – using the multi-label weak-supervision classifier developed and validated in the companion "
-    "paper (Gavamukulya & Aigbavboa, in preparation). A construction-relevance filter, requiring a specific "
-    "infrastructure noun, a named infrastructure agency, or construction-contract-specific terminology, "
-    "removed generic public-sector content (drug procurement, academic staffing, research-programme findings) "
-    "that an earlier, more permissive filter had let through; 792 of 1,762 driver-labelled sentences (44.9%) "
-    "pass this filter and form the analysis corpus for the present paper."
+    "original, capped corpus."
+)
+p(
+    "Sentences were classified into eight dispute-driver categories by a multi-label keyword/regular-"
+    "expression system: each category is defined by a short list of terms and phrases (Table X, Appendix), "
+    "and a sentence is assigned every category whose terms it contains, rather than the single best-matching "
+    "category, so that a sentence discussing both a delay and its associated cost escalation counts toward "
+    "both categories rather than an arbitrary one. This is a transparent, fully auditable method, but not a "
+    "trained or learned one, and its term lists were developed iteratively against the corpus itself: five "
+    "categories were seeded from the international dispute-causation literature's conventional terms "
+    "(procurement, delayed payment, contract management, land acquisition, governance), and two additional "
+    "categories – delay/time overrun and claims and disputes – were added after an initial read of the corpus "
+    "showed substantial, recurring language (e.g. 'behind schedule', 'stalled', 'litigation', 'liquidated "
+    "damages') that the conventional five-category scheme had no home for. Classifier performance against a "
+    "held-out, independently coded sample is reported in Section 3.4; the headline result – macro-F1 = [XX] "
+    "(Section 3.4) – should be read alongside the category counts throughout this paper, since a keyword "
+    "system's errors are not random and are more informative read in the confusion pattern (Table 5) than in "
+    "the aggregate score alone."
+)
+p(
+    "A construction-relevance filter, requiring a specific infrastructure noun, a named infrastructure "
+    "agency, or construction-contract-specific terminology, removed generic public-sector content (drug "
+    "procurement, academic staffing, research-programme findings) that an earlier, more permissive filter "
+    "keyed only on generic terms such as 'delayed' or 'project' had let through; 792 of 1,762 driver-labelled "
+    "sentences (44.9%) pass this filter and form the analysis corpus for the present paper."
 )
 
 h2("3.2 Project identification and geocoding")
@@ -319,6 +337,41 @@ add_table(
     ],
 )
 caption("Table 2. Explanatory covariate layers and sources.")
+
+h2("3.4 Classifier validation")
+p(
+    "Because the driver classifier (Section 3.1) is a transparent keyword system rather than a trained "
+    "model, its errors are not random and need checking directly rather than assumed away. A stratified "
+    "sample of [XX] sentences (drawn across the eight categories, seed 42) was independently re-coded "
+    "against a written codebook by a rater blind to the classifier's assigned labels, judging which of the "
+    "eight categories genuinely apply to each sentence (a sentence may belong to none, one, or several). "
+    "This is a disclosed AI-assisted single-rater validation, not a claim of independent human inter-coder "
+    "reliability, and is reported as such: with only one rater, no inter-coder statistic such as Cohen's "
+    "kappa is computable or reported. Table 3 gives the resulting per-category precision, recall and F1 "
+    "against this reference set; macro-averaged F1 is [XX]."
+)
+add_table(
+    ["Category", "n gold-positive", "Precision", "Recall", "F1"],
+    [
+        ["Delay / time overrun", "[XX]", "[XX]", "[XX]", "[XX]"],
+        ["Cost overrun", "[XX]", "[XX]", "[XX]", "[XX]"],
+        ["Claims & disputes", "[XX]", "[XX]", "[XX]", "[XX]"],
+        ["Land / right-of-way", "[XX]", "[XX]", "[XX]", "[XX]"],
+        ["Contract management", "[XX]", "[XX]", "[XX]", "[XX]"],
+        ["Delayed payments", "[XX]", "[XX]", "[XX]", "[XX]"],
+        ["Governance & oversight", "[XX]", "[XX]", "[XX]", "[XX]"],
+        ["Procurement irregularity", "[XX]", "[XX]", "[XX]", "[XX]"],
+        ["Macro average", "[XX]", "[XX]", "[XX]", "[XX]"],
+    ],
+)
+caption("Table 3. Classifier performance against an independently coded reference sample "
+        "(disclosed single-rater validation; see Section 3.4).")
+p(
+    "[XX: one to two sentences on the strongest and weakest categories and the dominant confusion pattern, "
+    "filled in from the validation write-up once scoring is complete.] The category term lists themselves "
+    "are given in full in the Appendix (Table A1) so that every classification decision in this paper is "
+    "auditable against its source rule, not only against the validation sample."
+)
 
 # ==================================================================
 # 4. METHODS
@@ -410,7 +463,7 @@ add_table(
         ["Overall project intensity", "0.304", "0.001", "90"],
     ],
 )
-caption("Table 3. Global Moran's I by driver category (Queen contiguity, 999 permutations).")
+caption("Table 4. Global Moran's I by driver category (Queen contiguity, 999 permutations).")
 
 p(
     "Local Getis-Ord Gi* hot spots (Figure 2) locate this clustering precisely. Land/right-of-way and delay "
@@ -440,7 +493,7 @@ p(
 
 h2("5.4 Explanatory spatial regression")
 p(
-    "Table 4 reports standardised OLS coefficients for the three modelled outcomes (spatial lag and error "
+    "Table 5 reports standardised OLS coefficients for the three modelled outcomes (spatial lag and error "
     "models return materially the same coefficients and are omitted from the table for brevity; full results "
     "for all three specifications are in the replication data). For overall project intensity, population "
     "(β = 0.29, p < 0.001), dependency ratio (β = −0.24, p < 0.001) and mailo tenure (β = 0.18, p = 0.013) are "
@@ -470,7 +523,7 @@ add_table(
         ["Moran's I, OLS residuals", "0.009 (n.s.)", "0.068 (p=0.074, LM-lag)", "0.038 (n.s.)"],
     ],
 )
-caption("Table 4. Standardised OLS coefficients (p-values in parentheses), 135 districts. "
+caption("Table 5. Standardised OLS coefficients (p-values in parentheses), 135 districts. "
         "Spatial lag/error coefficients and standard errors for all three outcomes are in the replication data.")
 
 h2("5.5 Geographically weighted regression")
@@ -507,6 +560,30 @@ p(
     "yet well identified by the available sample, not that either method is right."
 )
 
+h2("5.7 Robustness checks")
+p(
+    "Two further checks test whether Sections 5.2–5.4's results depend on specific modelling choices. First, "
+    "Moran's I was recomputed under two k-nearest-neighbour weights specifications (k = 5, k = 8) in place of "
+    "Queen contiguity. For overall project intensity and land/right-of-way, the result is unchanged: "
+    "significant (p < 0.01) under all three weights specifications. For delay/time overrun, however, it is "
+    "not: significant under Queen (p = 0.006) and KNN-8 (p = 0.011) but not under KNN-5 (p = 0.096). Delay's "
+    "spatial clustering is real but more weights-sensitive than land's, and is reported as such rather than "
+    "presented only under the specification that clears significance."
+)
+p(
+    "Second, the three district-level outcomes were re-fitted as standard (non-spatial) Negative Binomial "
+    "GLMs on the raw counts, the distributional alternative to the log1p-OLS specification used in Section "
+    "5.4 for comparability with the spatial-econometrics toolkit. For delay/time overrun, the Section 5.4 "
+    "result holds up: dependency ratio (p = 0.011) and mailo tenure (p = 0.049) remain significant with the "
+    "same sign. For overall project intensity, population and dependency ratio remain significant "
+    "(p = 0.002 each) but mailo tenure weakens to marginal (p = 0.081, was p = 0.013 under OLS). For "
+    "land/right-of-way, the picture changes materially: nothing clears conventional significance except a "
+    "marginal distance-to-Kampala effect (p = 0.054), and population — significant in every Section 5.4 "
+    "specification (p = 0.017–0.029) — is not significant here (p = 0.278). The land-dispute regression "
+    "findings, in other words, are not robust to this change in functional form, where the delay findings "
+    "are. This is taken up directly in Section 6.2."
+)
+
 # ==================================================================
 # 6. DISCUSSION
 # ==================================================================
@@ -536,7 +613,12 @@ p(
     "likely to be formally registered, escalated and ultimately audited in the first place – a genuine "
     "identification problem this paper cannot resolve with the available data, and returns to in Section 7.1. "
     "Both readings agree that land tenure regime, not merely distance or population, is doing real "
-    "explanatory work, which is itself the more defensible and portable claim."
+    "explanatory work, which is itself the more defensible and portable claim. That claim needs one further "
+    "qualification from Section 5.7: the global land/right-of-way model's other significant variable "
+    "(population) does not survive the Negative Binomial robustness check, so the paper's confidence in the "
+    "land-tenure result rests more heavily on the GWR local-coefficient pattern, which is a within-model "
+    "comparison unaffected by the OLS-versus-count-model choice, than on the global regression coefficient "
+    "taken alone."
 )
 h2("6.3 When a global model is enough, and when it isn't")
 p(
@@ -576,7 +658,7 @@ h2("7.1 A spatial risk screen for project appraisal")
 p(
     "The practical output of this paper is a district-level spatial risk screen: at appraisal stage, a "
     "project's district can be checked against the hot-spot classifications in Figure 2 and the tenure/"
-    "distance profile in Table 4 to flag, before contract award, whether it sits in a corridor with an "
+    "distance profile in Table 5 to flag, before contract award, whether it sits in a corridor with an "
     "elevated historical concentration of land, delay or cost-overrun disputes, and to route it toward the "
     "correspondingly differentiated response described in Section 6.4. This is a low-cost complement to, not "
     "a replacement for, project-specific risk assessment, and is only as good as the audit-derived pattern "
@@ -678,6 +760,45 @@ for ref in REFS:
     para.paragraph_format.first_line_indent = Inches(-0.3)
     for run in para.runs:
         run.font.size = Pt(10.5)
+
+# ==================================================================
+# APPENDIX
+# ==================================================================
+d.add_page_break()
+h1("Appendix")
+p(
+    "Table A1 gives the full term/phrase list defining each of the eight driver categories in the multi-label "
+    "keyword classifier (Section 3.1). A sentence is assigned a category if it contains any one of that "
+    "category's terms (case-insensitive); a sentence may match, and so be assigned, more than one category. "
+    "Terms are given as plain phrases; word-boundary and minor morphological variants (e.g. 'delay' / "
+    "'delayed' / 'delays') were handled in the underlying regular expressions but are collapsed to a single "
+    "representative form here for readability."
+)
+add_table(
+    ["Category", "Terms / phrases"],
+    [
+        ["Delay / time overrun", "extension of time; behind schedule; time overrun; delayed completion; "
+                                   "failure to complete; incomplete works; abandoned works; stalled; not yet "
+                                   "completed; overdue completion; suspension of works; works halted"],
+        ["Cost overrun", "cost overrun; budget overrun; cost escalation; price escalation; budget variance; "
+                          "excess expenditure; additional cost; cost variation; price variation; "
+                          "supplementary budget; over and above the contract"],
+        ["Claims & disputes", "contingent liability; unresolved claim; nugatory expenditure; litigation; "
+                               "arbitration; breach of contract; liquidated damages; compensation claim; "
+                               "counterclaim; court case; sued; lawsuit; legal suit"],
+        ["Land / right-of-way", "land acquisition; right of way; wayleave; resettlement; compensation of "
+                                 "(project) affected persons; encroachment"],
+        ["Contract management", "contract management; supervision; defect(s)/defective; non-compliance; "
+                                 "poor workmanship; substandard; shoddy"],
+        ["Delayed payments", "delayed payment; arrears; outstanding payment; certificate unpaid; unpaid "
+                              "certificate; payment delay; withheld payment"],
+        ["Governance & oversight", "internal control; oversight; accountability; governance; lack of "
+                                    "supervision/monitoring"],
+        ["Procurement irregularity", "procurement; bid(s)/bidding; tender(s)/tendering; evaluation "
+                                      "committee"],
+    ],
+)
+caption("Table A1. Full driver-category term lists (multi-label keyword classifier).")
 
 print("References done. Final save.")
 d.save(OUT)
