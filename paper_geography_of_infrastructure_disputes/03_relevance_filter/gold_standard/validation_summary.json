@@ -1,0 +1,434 @@
+{
+  "sample_size": 362,
+  "n_gold_zero_label_sentences": 85,
+  "n_classifier_zero_label_sentences": 0,
+  "macro_precision": 0.7114,
+  "macro_recall": 0.6235,
+  "macro_F1": 0.6274,
+  "micro_precision": 0.6831,
+  "micro_recall": 0.5988,
+  "micro_F1": 0.6382,
+  "per_category": [
+    {
+      "category": "delay_time_overrun",
+      "n_gold_positive": 125,
+      "n_classifier_positive": 50,
+      "TP": 50,
+      "FP": 0,
+      "FN": 75,
+      "TN": 237,
+      "precision": 1.0,
+      "recall": 0.4,
+      "F1": 0.5714
+    },
+    {
+      "category": "cost_overrun",
+      "n_gold_positive": 32,
+      "n_classifier_positive": 15,
+      "TP": 13,
+      "FP": 2,
+      "FN": 19,
+      "TN": 328,
+      "precision": 0.8667,
+      "recall": 0.4062,
+      "F1": 0.5532
+    },
+    {
+      "category": "claims_and_disputes",
+      "n_gold_positive": 47,
+      "n_classifier_positive": 49,
+      "TP": 36,
+      "FP": 13,
+      "FN": 11,
+      "TN": 302,
+      "precision": 0.7347,
+      "recall": 0.766,
+      "F1": 0.75
+    },
+    {
+      "category": "land_and_right_of_way",
+      "n_gold_positive": 64,
+      "n_classifier_positive": 53,
+      "TP": 49,
+      "FP": 4,
+      "FN": 15,
+      "TN": 294,
+      "precision": 0.9245,
+      "recall": 0.7656,
+      "F1": 0.8376
+    },
+    {
+      "category": "contract_management",
+      "n_gold_positive": 83,
+      "n_classifier_positive": 60,
+      "TP": 43,
+      "FP": 17,
+      "FN": 40,
+      "TN": 262,
+      "precision": 0.7167,
+      "recall": 0.5181,
+      "F1": 0.6014
+    },
+    {
+      "category": "delayed_payments",
+      "n_gold_positive": 42,
+      "n_classifier_positive": 69,
+      "TP": 27,
+      "FP": 42,
+      "FN": 15,
+      "TN": 278,
+      "precision": 0.3913,
+      "recall": 0.6429,
+      "F1": 0.4865
+    },
+    {
+      "category": "governance_and_controls",
+      "n_gold_positive": 28,
+      "n_classifier_positive": 54,
+      "TP": 18,
+      "FP": 36,
+      "FN": 10,
+      "TN": 298,
+      "precision": 0.3333,
+      "recall": 0.6429,
+      "F1": 0.439
+    },
+    {
+      "category": "procurement_irregularities",
+      "n_gold_positive": 65,
+      "n_classifier_positive": 76,
+      "TP": 55,
+      "FP": 21,
+      "FN": 10,
+      "TN": 276,
+      "precision": 0.7237,
+      "recall": 0.8462,
+      "F1": 0.7801
+    }
+  ],
+  "confusion_summary": {
+    "delay_time_overrun": {
+      "fp_total": 0,
+      "fn_total": 75,
+      "when_classifier_wrongly_added_this_label_gold_actually_said": [],
+      "when_classifier_wrongly_missed_this_label_classifier_actually_said": [
+        [
+          "procurement_irregularities",
+          27
+        ],
+        [
+          "land_and_right_of_way",
+          19
+        ],
+        [
+          "contract_management",
+          15
+        ],
+        [
+          "delayed_payments",
+          13
+        ],
+        [
+          "claims_and_disputes",
+          12
+        ]
+      ]
+    },
+    "cost_overrun": {
+      "fp_total": 2,
+      "fn_total": 19,
+      "when_classifier_wrongly_added_this_label_gold_actually_said": [
+        [
+          "(nothing_gold)",
+          2
+        ]
+      ],
+      "when_classifier_wrongly_missed_this_label_classifier_actually_said": [
+        [
+          "delayed_payments",
+          6
+        ],
+        [
+          "land_and_right_of_way",
+          5
+        ],
+        [
+          "claims_and_disputes",
+          4
+        ],
+        [
+          "procurement_irregularities",
+          4
+        ],
+        [
+          "contract_management",
+          4
+        ]
+      ]
+    },
+    "claims_and_disputes": {
+      "fp_total": 13,
+      "fn_total": 11,
+      "when_classifier_wrongly_added_this_label_gold_actually_said": [
+        [
+          "(nothing_gold)",
+          8
+        ],
+        [
+          "contract_management",
+          2
+        ],
+        [
+          "land_and_right_of_way",
+          1
+        ],
+        [
+          "cost_overrun",
+          1
+        ],
+        [
+          "procurement_irregularities",
+          1
+        ]
+      ],
+      "when_classifier_wrongly_missed_this_label_classifier_actually_said": [
+        [
+          "land_and_right_of_way",
+          6
+        ],
+        [
+          "delayed_payments",
+          3
+        ],
+        [
+          "cost_overrun",
+          1
+        ],
+        [
+          "contract_management",
+          1
+        ]
+      ]
+    },
+    "land_and_right_of_way": {
+      "fp_total": 4,
+      "fn_total": 15,
+      "when_classifier_wrongly_added_this_label_gold_actually_said": [
+        [
+          "procurement_irregularities",
+          2
+        ],
+        [
+          "(nothing_gold)",
+          2
+        ]
+      ],
+      "when_classifier_wrongly_missed_this_label_classifier_actually_said": [
+        [
+          "claims_and_disputes",
+          5
+        ],
+        [
+          "procurement_irregularities",
+          4
+        ],
+        [
+          "cost_overrun",
+          2
+        ],
+        [
+          "delay_time_overrun",
+          2
+        ],
+        [
+          "contract_management",
+          1
+        ]
+      ]
+    },
+    "contract_management": {
+      "fp_total": 17,
+      "fn_total": 40,
+      "when_classifier_wrongly_added_this_label_gold_actually_said": [
+        [
+          "(nothing_gold)",
+          8
+        ],
+        [
+          "delay_time_overrun",
+          4
+        ],
+        [
+          "governance_and_controls",
+          4
+        ],
+        [
+          "land_and_right_of_way",
+          1
+        ],
+        [
+          "procurement_irregularities",
+          1
+        ]
+      ],
+      "when_classifier_wrongly_missed_this_label_classifier_actually_said": [
+        [
+          "delay_time_overrun",
+          11
+        ],
+        [
+          "procurement_irregularities",
+          10
+        ],
+        [
+          "delayed_payments",
+          7
+        ],
+        [
+          "claims_and_disputes",
+          5
+        ],
+        [
+          "cost_overrun",
+          5
+        ]
+      ]
+    },
+    "delayed_payments": {
+      "fp_total": 42,
+      "fn_total": 15,
+      "when_classifier_wrongly_added_this_label_gold_actually_said": [
+        [
+          "(nothing_gold)",
+          24
+        ],
+        [
+          "procurement_irregularities",
+          9
+        ],
+        [
+          "contract_management",
+          7
+        ],
+        [
+          "delay_time_overrun",
+          7
+        ],
+        [
+          "claims_and_disputes",
+          3
+        ]
+      ],
+      "when_classifier_wrongly_missed_this_label_classifier_actually_said": [
+        [
+          "claims_and_disputes",
+          7
+        ],
+        [
+          "cost_overrun",
+          2
+        ],
+        [
+          "procurement_irregularities",
+          2
+        ],
+        [
+          "land_and_right_of_way",
+          2
+        ],
+        [
+          "contract_management",
+          1
+        ]
+      ]
+    },
+    "governance_and_controls": {
+      "fp_total": 36,
+      "fn_total": 10,
+      "when_classifier_wrongly_added_this_label_gold_actually_said": [
+        [
+          "(nothing_gold)",
+          32
+        ],
+        [
+          "procurement_irregularities",
+          2
+        ],
+        [
+          "delay_time_overrun",
+          2
+        ],
+        [
+          "delayed_payments",
+          1
+        ]
+      ],
+      "when_classifier_wrongly_missed_this_label_classifier_actually_said": [
+        [
+          "contract_management",
+          5
+        ],
+        [
+          "delay_time_overrun",
+          2
+        ],
+        [
+          "claims_and_disputes",
+          2
+        ],
+        [
+          "land_and_right_of_way",
+          1
+        ],
+        [
+          "delayed_payments",
+          1
+        ]
+      ]
+    },
+    "procurement_irregularities": {
+      "fp_total": 21,
+      "fn_total": 10,
+      "when_classifier_wrongly_added_this_label_gold_actually_said": [
+        [
+          "(nothing_gold)",
+          16
+        ],
+        [
+          "delay_time_overrun",
+          3
+        ],
+        [
+          "cost_overrun",
+          1
+        ],
+        [
+          "governance_and_controls",
+          1
+        ]
+      ],
+      "when_classifier_wrongly_missed_this_label_classifier_actually_said": [
+        [
+          "claims_and_disputes",
+          3
+        ],
+        [
+          "land_and_right_of_way",
+          2
+        ],
+        [
+          "delayed_payments",
+          2
+        ],
+        [
+          "cost_overrun",
+          2
+        ],
+        [
+          "delay_time_overrun",
+          1
+        ]
+      ]
+    }
+  }
+}
