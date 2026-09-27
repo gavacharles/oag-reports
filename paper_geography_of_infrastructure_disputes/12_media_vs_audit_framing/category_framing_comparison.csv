@@ -1,0 +1,7 @@
+oag_category,observer_category,oag_raw_n,oag_raw_share_pct,oag_precision,oag_corrected_n,observer_raw_n,observer_raw_share_pct,observer_precision,observer_corrected_n,oag_corrected_share_pct,observer_corrected_share_pct
+delay_time_overrun,delay_time_overrun,135,17.0,1.0,135.0,3514,14.5,0.18,632.5,25.7,22.9
+land_and_right_of_way,land_row_dispute,90,11.4,0.925,83.2,15173,62.6,0.08,1213.8,15.9,43.9
+procurement_irregularities,procurement_irregularity,202,25.5,0.724,146.2,1555,6.42,0.16,248.8,27.9,9.0
+contract_management,contract_management_failure,139,17.6,0.717,99.7,898,3.71,0.17,152.7,19.0,5.5
+delayed_payments,payment_financial_dispute,98,12.4,0.391,38.3,577,2.38,0.34,196.2,7.3,7.1
+governance_and_controls,governance_oversight_failure,66,8.3,0.333,22.0,1045,4.31,0.31,323.9,4.2,11.7
