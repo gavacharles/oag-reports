@@ -1,0 +1,7 @@
+category,n_districts_excl_kla_wakiso,oag_total_n,observer_total_n,spearman_rho,spearman_p
+delay_time_overrun,14,15,815,-0.081,0.7825
+land_and_right_of_way,14,11,1288,-0.017,0.9543
+procurement_irregularities,14,13,462,0.391,0.1665
+contract_management,14,10,235,0.119,0.6865
+delayed_payments,14,11,194,-0.086,0.77
+governance_and_controls,14,6,329,0.417,0.138

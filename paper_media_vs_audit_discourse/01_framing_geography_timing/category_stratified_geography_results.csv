@@ -1,0 +1,7 @@
+category,n_districts,n_districts_oag_nonzero,n_districts_observer_nonzero,oag_total_n,observer_total_n,spearman_rho,spearman_p
+delay_time_overrun,16,10,16,23,1480,0.281,0.2912
+land_and_right_of_way,16,9,16,18,2503,0.316,0.2324
+procurement_irregularities,16,10,16,33,833,0.6,0.0139
+contract_management,16,9,16,19,459,0.424,0.1019
+delayed_payments,16,12,15,23,317,0.314,0.2356
+governance_and_controls,16,7,16,8,629,0.523,0.0377
