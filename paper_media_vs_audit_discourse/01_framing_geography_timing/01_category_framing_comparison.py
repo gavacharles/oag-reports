@@ -37,9 +37,9 @@ the mismatch itself is a finding, not a gap to paper over):
 """
 import pandas as pd
 
-BASE = "/Users/charlesgava/Documents/Projects /OAG Reports/paper_geography_of_infrastructure_disputes"
-OAG_CORPUS = f"{BASE}/03_relevance_filter/oag_infrastructure_sentence_corpus_2017_2025_FINAL.csv"
-OUT_DIR = f"{BASE}/12_media_vs_audit_framing"
+PAPER1_BASE = "/Users/charlesgava/Documents/Projects /OAG Reports/paper_geography_of_infrastructure_disputes"
+OAG_CORPUS = f"{PAPER1_BASE}/03_relevance_filter/oag_infrastructure_sentence_corpus_2017_2025_FINAL.csv"
+OUT_DIR = "/Users/charlesgava/Documents/Projects /OAG Reports/paper_media_vs_audit_discourse/01_framing_geography_timing"
 
 # -- OAG side: raw primary_driver counts + this paper's own validated precision (Table 3) --
 oag_raw = {

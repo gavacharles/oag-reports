@@ -26,10 +26,10 @@ extraction for that year; see Section 3.1's caveat on report availability).
 import pandas as pd
 from scipy.stats import spearmanr, pearsonr
 
-BASE = "/Users/charlesgava/Documents/Projects /OAG Reports/paper_geography_of_infrastructure_disputes"
-OAG_CORPUS = f"{BASE}/03_relevance_filter/oag_infrastructure_sentence_corpus_2017_2025_FINAL.csv"
+PAPER1_BASE = "/Users/charlesgava/Documents/Projects /OAG Reports/paper_geography_of_infrastructure_disputes"
+OAG_CORPUS = f"{PAPER1_BASE}/03_relevance_filter/oag_infrastructure_sentence_corpus_2017_2025_FINAL.csv"
 OBSERVER_SENTENCES = "/Users/charlesgava/Documents/Projects /The Observer/paper2_online_discourse/outputs_observer_full_corpus/sentences_classified.csv"
-OUT_DIR = f"{BASE}/12_media_vs_audit_framing"
+OUT_DIR = "/Users/charlesgava/Documents/Projects /OAG Reports/paper_media_vs_audit_discourse/01_framing_geography_timing"
 
 oag = pd.read_csv(OAG_CORPUS, usecols=["year"])
 oag_annual = oag.groupby("year").size().rename("oag_n_sentences")
