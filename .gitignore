@@ -1,2 +1,16 @@
 .DS_Store
 **/.DS_Store
+
+# Paper drafts and write-ups are kept private (moved 2026-11-20)
+/government_Auditor_General/COMPREHENSIVE_WRITEUP_FINAL.md
+/government_Auditor_General/fa_vs_lda_benchmark_writeup.md
+/government_Auditor_General/lda_to_svm_benchmark_writeup.md
+/government_Auditor_General/phd_detailed_writeup_2017_2025.md
+/government_Auditor_General/project_extraction_and_geocoding_writeup.md
+/government_Auditor_General/writeup.md
+WRITEUP.md
+_writeup.md
+/paper_geography_of_infrastructure_disputes/06_esda/RESULTS_SUMMARY.md
+/paper_geography_of_infrastructure_disputes/10_manuscript/*.docx
+/paper_geography_of_infrastructure_disputes/10_manuscript/*.pdf
+/paper_geography_of_infrastructure_disputes/10_manuscript/*.md
